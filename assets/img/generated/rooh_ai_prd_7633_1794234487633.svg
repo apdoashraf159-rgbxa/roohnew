@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Filter definitions for photorealistic soft lighting -->
+    <filter id="pedestalBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(45,59,45,0.15)"/>
+    </filter>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#E5DCCE"/>
+    </linearGradient>
+    <linearGradient id="pedestalMarble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0EAE1"/>
+      <stop offset="35%" stop-color="#FAF7F2"/>
+      <stop offset="70%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </linearGradient>
+    <linearGradient id="goldRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="50%" stop-color="#F3E1B9"/>
+      <stop offset="100%" stop-color="#99783D"/>
+    </linearGradient>
+    <radialGradient id="softVignette" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#EBE2D4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C5B7A0" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="800" fill="url(#studioBg)"/>
+  <rect width="800" height="800" fill="url(#softVignette)"/>
+
+  <!-- Subtle Botanical Olive Leaves Shadow in Background -->
+  <g opacity="0.07" transform="translate(40, 20)">
+    <path d="M100,50 Q160,20 220,70 Q170,110 100,50 Z" fill="#2D3B2D"/>
+    <path d="M220,70 Q280,30 350,90 Q290,130 220,70 Z" fill="#2D3B2D"/>
+    <path d="M120,120 Q190,90 260,150 Q190,190 120,120 Z" fill="#2D3B2D"/>
+  </g>
+
+  <!-- Luxury Marble Cylinder Pedestal Base -->
+  <g id="marble_podium">
+    <!-- Pedestal Base Under-shadow -->
+    <ellipse cx="400" cy="710" rx="310" ry="42" fill="rgba(27,36,27,0.12)" filter="url(#pedestalBlur)"/>
+    
+    <!-- Pedestal Cylinder Height -->
+    <path d="M120,620 L120,670 C120,715 680,715 680,670 L680,620 Z" fill="url(#pedestalMarble)" stroke="#E0D6C8" stroke-width="1"/>
+    
+    <!-- Pedestal Top Oval Surface -->
+    <ellipse cx="400" cy="620" rx="280" ry="38" fill="#FFFDF9" stroke="url(#goldRimGrad)" stroke-width="1.8"/>
+    <ellipse cx="400" cy="620" rx="270" ry="34" fill="#FAF6EF" opacity="0.7"/>
+  </g>
+
+  <!-- Main Cosmetic Packaging Artwork -->
+  
+        <!-- Luxury Crystal Perfume Flacon -->
+        <g id="perfume_flacon">
+          <!-- Shadow -->
+          <ellipse cx="400" cy="625" rx="170" ry="24" fill="rgba(27,36,27,0.2)" filter="url(#pedestalBlur)"/>
+          <ellipse cx="400" cy="620" rx="120" ry="14" fill="rgba(27,36,27,0.25)" filter="url(#pedestalBlur)"/>
+
+          <defs>
+            <linearGradient id="perfumeLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#FBE4B5" stop-opacity="0.95"/>
+              <stop offset="60%" stop-color="#E5AA52" stop-opacity="0.95"/>
+              <stop offset="100%" stop-color="#A56E22" stop-opacity="0.98"/>
+            </linearGradient>
+            <linearGradient id="crystalEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+              <stop offset="20%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+              <stop offset="80%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+              <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+            </linearGradient>
+            <linearGradient id="goldSprayer" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#99783D"/>
+              <stop offset="35%" stop-color="#FCEABF"/>
+              <stop offset="70%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#805F25"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Crystal Glass Body -->
+          <rect x="290" y="330" width="220" height="270" rx="16" fill="url(#crystalEdge)" stroke="#FFFFFF" stroke-width="2"/>
+          <!-- Internal Fragrance Liquid Chamber -->
+          <rect x="306" y="348" width="188" height="235" rx="10" fill="url(#perfumeLiquid)"/>
+
+          <!-- Perfume Dip Tube -->
+          <line x1="400" y1="280" x2="400" y2="575" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+
+          <!-- Crystal Facet Highlights -->
+          <polygon points="290,330 310,348 310,583 290,600" fill="#FFFFFF" opacity="0.45"/>
+          <polygon points="510,330 490,348 490,583 510,600" fill="#FFFFFF" opacity="0.3"/>
+
+          <!-- Gold Neck Collar & Sprayer -->
+          <rect x="370" y="275" width="60" height="55" rx="6" fill="url(#goldSprayer)" stroke="#805F25" stroke-width="1"/>
+          
+          <!-- Heavy Faceted Crystal Stopper Cap -->
+          <polygon points="340,195 460,195 445,275 355,275" fill="url(#crystalEdge)" stroke="#FFFFFF" stroke-width="2"/>
+          <polygon points="360,205 440,205 430,265 370,265" fill="#FFFFFF" opacity="0.35"/>
+
+          <!-- Engraved Metal Plaque -->
+          <rect x="325" y="430" width="150" height="95" rx="8" fill="#1B241B" stroke="url(#goldSprayer)" stroke-width="2"/>
+          <text x="400" y="458" font-family="'Cinzel', serif" font-size="14" fill="#D4AF37" font-weight="bold" letter-spacing="4" text-anchor="middle">ROOH</text>
+          <text x="400" y="474" font-family="'Cinzel', serif" font-size="8" fill="#E8C88B" letter-spacing="2" text-anchor="middle">EAU DE PARFUM</text>
+          <line x1="345" y1="482" x2="455" y2="482" stroke="#C5A880" stroke-width="0.8"/>
+          <text x="400" y="499" font-family="'Cairo', sans-serif" font-size="10" fill="#FFFFFF" font-weight="600" text-anchor="middle">عطر نفحات المسك المل</text>
+          <text x="400" y="513" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#C5A880" letter-spacing="1" text-anchor="middle">100ml • 3.4 FL. OZ.</text>
+        </g>
+      
+
+  <!-- Water Droplets / Natural Luxury Dew Details -->
+  <g id="dew_accents" opacity="0.75">
+    <ellipse cx="250" cy="600" rx="7" ry="4" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="248" cy="599" r="1.5" fill="#FFFFFF"/>
+    <ellipse cx="550" cy="610" rx="9" ry="5" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="548" cy="609" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- ROOH Luxury Authentication Seal Watermark -->
+  <g id="rooh_seal" transform="translate(710, 710)" opacity="0.35">
+    <circle cx="30" cy="30" r="26" fill="none" stroke="#2D3B2D" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text x="30" y="34" font-family="'Cinzel', serif" font-size="8" fill="#2D3B2D" font-weight="bold" text-anchor="middle">ROOH</text>
+  </g>
+</svg>

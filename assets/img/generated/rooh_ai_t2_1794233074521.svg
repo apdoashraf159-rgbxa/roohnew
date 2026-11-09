@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Filter definitions for photorealistic soft lighting -->
+    <filter id="pedestalBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(45,59,45,0.15)"/>
+    </filter>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#E5DCCE"/>
+    </linearGradient>
+    <linearGradient id="pedestalMarble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0EAE1"/>
+      <stop offset="35%" stop-color="#FAF7F2"/>
+      <stop offset="70%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </linearGradient>
+    <linearGradient id="goldRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="50%" stop-color="#F3E1B9"/>
+      <stop offset="100%" stop-color="#99783D"/>
+    </linearGradient>
+    <radialGradient id="softVignette" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#EBE2D4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C5B7A0" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="800" fill="url(#studioBg)"/>
+  <rect width="800" height="800" fill="url(#softVignette)"/>
+
+  <!-- Subtle Botanical Olive Leaves Shadow in Background -->
+  <g opacity="0.07" transform="translate(40, 20)">
+    <path d="M100,50 Q160,20 220,70 Q170,110 100,50 Z" fill="#2D3B2D"/>
+    <path d="M220,70 Q280,30 350,90 Q290,130 220,70 Z" fill="#2D3B2D"/>
+    <path d="M120,120 Q190,90 260,150 Q190,190 120,120 Z" fill="#2D3B2D"/>
+  </g>
+
+  <!-- Luxury Marble Cylinder Pedestal Base -->
+  <g id="marble_podium">
+    <!-- Pedestal Base Under-shadow -->
+    <ellipse cx="400" cy="710" rx="310" ry="42" fill="rgba(27,36,27,0.12)" filter="url(#pedestalBlur)"/>
+    
+    <!-- Pedestal Cylinder Height -->
+    <path d="M120,620 L120,670 C120,715 680,715 680,670 L680,620 Z" fill="url(#pedestalMarble)" stroke="#E0D6C8" stroke-width="1"/>
+    
+    <!-- Pedestal Top Oval Surface -->
+    <ellipse cx="400" cy="620" rx="280" ry="38" fill="#FFFDF9" stroke="url(#goldRimGrad)" stroke-width="1.8"/>
+    <ellipse cx="400" cy="620" rx="270" ry="34" fill="#FAF6EF" opacity="0.7"/>
+  </g>
+
+  <!-- Main Cosmetic Packaging Artwork -->
+  
+        <!-- Luxury Cosmetic Jar -->
+        <g id="cosmetic_jar">
+          <!-- Shadow on marble pedestal -->
+          <ellipse cx="400" cy="590" rx="190" ry="26" fill="rgba(27,36,27,0.18)" filter="url(#pedestalBlur)"/>
+          <ellipse cx="400" cy="585" rx="140" ry="16" fill="rgba(27,36,27,0.25)" filter="url(#pedestalBlur)"/>
+
+          <!-- Jar Base Body (Frosted Heavy Glass) -->
+          <defs>
+            <linearGradient id="jarGlassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#E2DDD5" stop-opacity="0.95"/>
+              <stop offset="15%" stop-color="#FFFFFF" stop-opacity="0.98"/>
+              <stop offset="50%" stop-color="#F7F4EE" stop-opacity="0.85"/>
+              <stop offset="85%" stop-color="#E8E2D6" stop-opacity="0.92"/>
+              <stop offset="100%" stop-color="#CFC7B8" stop-opacity="0.95"/>
+            </linearGradient>
+            <linearGradient id="jarInnerCream" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#FFFDF9"/>
+              <stop offset="100%" stop-color="#F2EBE0"/>
+            </linearGradient>
+            <linearGradient id="jarGoldCap" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#99783D"/>
+              <stop offset="25%" stop-color="#E8C88B"/>
+              <stop offset="50%" stop-color="#FDF3DA"/>
+              <stop offset="75%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#805F25"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Jar Glass Exterior -->
+          <rect x="250" y="410" width="300" height="170" rx="28" fill="url(#jarGlassGrad)" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+          <!-- Inner Cream Chamber -->
+          <rect x="270" y="425" width="260" height="135" rx="18" fill="url(#jarInnerCream)" opacity="0.9"/>
+          
+          <!-- Glass Reflections -->
+          <path d="M260,420 L275,420 L275,565 L260,560 Z" fill="#FFFFFF" opacity="0.55"/>
+          <path d="M525,420 L538,420 L538,560 L525,565 Z" fill="#FFFFFF" opacity="0.35"/>
+
+          <!-- Gold Metallic Lid -->
+          <rect x="240" y="345" width="320" height="70" rx="14" fill="url(#jarGoldCap)" stroke="#805F25" stroke-width="1.5" filter="url(#dropShadow)"/>
+          <ellipse cx="400" cy="348" rx="155" ry="16" fill="#FDF3DA" opacity="0.6"/>
+          <!-- Lid bevel groove -->
+          <line x1="242" y1="380" x2="558" y2="380" stroke="#7A5A20" stroke-width="1" opacity="0.4"/>
+          <line x1="242" y1="382" x2="558" y2="382" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+
+          <!-- Label Plaque on Jar -->
+          <rect x="285" y="455" width="230" height="85" rx="10" fill="#2D3B2D" stroke="url(#goldRimGrad)" stroke-width="1.5"/>
+          <circle cx="400" cy="473" r="10" fill="url(#goldRimGrad)"/>
+          <text x="400" y="476" font-family="'Cinzel', serif" font-size="10" fill="#2D3B2D" font-weight="bold" text-anchor="middle">👑</text>
+          
+          <text x="400" y="495" font-family="'Cinzel', serif" font-size="13" fill="#D4AF37" font-weight="bold" letter-spacing="3" text-anchor="middle">ROOH</text>
+          <text x="400" y="513" font-family="'Cairo', sans-serif" font-size="11" fill="#FFFFFF" font-weight="600" text-anchor="middle">كريم الليل بالسيراميد</text>
+          <text x="400" y="527" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#C5A880" letter-spacing="1" text-anchor="middle">50ml • LUXURY COSMETICS</text>
+        </g>
+      
+
+  <!-- Water Droplets / Natural Luxury Dew Details -->
+  <g id="dew_accents" opacity="0.75">
+    <ellipse cx="250" cy="600" rx="7" ry="4" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="248" cy="599" r="1.5" fill="#FFFFFF"/>
+    <ellipse cx="550" cy="610" rx="9" ry="5" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="548" cy="609" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- ROOH Luxury Authentication Seal Watermark -->
+  <g id="rooh_seal" transform="translate(710, 710)" opacity="0.35">
+    <circle cx="30" cy="30" r="26" fill="none" stroke="#2D3B2D" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text x="30" y="34" font-family="'Cinzel', serif" font-size="8" fill="#2D3B2D" font-weight="bold" text-anchor="middle">ROOH</text>
+  </g>
+</svg>

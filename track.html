@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROOH Delivery | تتبع الشحنات والطلبات الملكية — روح لمستحضرات التجميل</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/rooh-luxury.css">
+</head>
+<body style="background: var(--rooh-cream); min-height: 100vh; display: flex; flex-direction: column;">
+
+  <!-- Header -->
+  <header style="background: #FFF; border-bottom: 1.5px solid var(--rooh-border); padding: 1rem 0; box-shadow: var(--rooh-shadow-sm);">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" class="brand-logo" style="text-decoration:none; display:flex; align-items:center; gap:10px;">
+        <span style="font-size:1.8rem;">👑</span>
+        <div>
+          <span style="font-family:var(--rooh-font-serif); font-size:1.35rem; font-weight:700; color:var(--rooh-dark); letter-spacing:2px; display:block;">ROOH</span>
+          <span style="font-size:0.75rem; color:var(--rooh-gold);">روح لمستحضرات التجميل الملكية</span>
+        </div>
+      </a>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <a href="index.html" class="btn-rooh btn-rooh-outline btn-rooh-sm">العودة للمتجر ←</a>
+        <a href="login.html" class="btn-rooh btn-rooh-primary btn-rooh-sm">تسجيل دخول الإدارة 🔐</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Tracking Container -->
+  <main class="container" style="flex: 1; padding: 3.5rem 1rem; max-width: 860px;">
+    <div style="text-align: center; margin-bottom: 2.5rem;">
+      <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(197, 168, 128, 0.15); border: 1px solid var(--rooh-gold); color: var(--rooh-dark); padding: 0.4rem 1.2rem; border-radius: 999px; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.8rem;">
+        <span>🚚</span> شبكة توصيل وشحن روح الملكية (27 محافظة مصرية)
+      </div>
+      <h1 style="font-family:var(--rooh-font-serif); font-size: 2.2rem; font-weight: 800; color: var(--rooh-dark); margin-bottom: 0.6rem;">
+        تتبعي شحنتكِ الملكية لحظة بلحظة
+      </h1>
+      <p style="color: var(--rooh-muted); font-size: 0.98rem; max-width:600px; margin:0 auto;">
+        أدخلي رقم الطلب (مثال: 1001 أو ROOH-EGY-1001) أو رقم هاتفكِ لمعرفة مسار الطلب وحالته وتفاصيل التسليم.
+      </p>
+    </div>
+
+    <!-- Tracking Search Form -->
+    <div style="background: #FFF; border: 1.5px solid var(--rooh-gold); border-radius: 16px; padding: 2rem; box-shadow: 0 8px 30px rgba(45,59,45,0.08); margin-bottom: 2rem;">
+      <form id="trackOrderForm" style="display: flex; gap: 0.8rem; flex-wrap: wrap;" onsubmit="event.preventDefault(); window.searchOrderTrack();">
+        <input type="text" id="trackInput" class="form-input" style="flex: 1; padding: 1rem 1.4rem; font-size: 1.05rem;" placeholder="أدخلي رقم الطلب (مثال: 1001) أو رقم الهاتف..." required autofocus>
+        <button type="submit" class="btn-rooh btn-rooh-primary" style="padding: 1rem 2rem; font-size: 1rem;">
+          <span>🔍 تتبع مسار الشحنة</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Results Display -->
+    <div id="trackingResultContainer">
+      <div style="background: #FFF; border-radius: 14px; padding: 3rem 1rem; text-align: center; border: 1px solid var(--rooh-border);">
+        <div style="font-size: 3rem; margin-bottom: 0.8rem;">📦</div>
+        <h3 style="color: var(--rooh-dark); margin-bottom: 0.4rem;">أدخلي رقم الطلب في الخانة بالأعلى</h3>
+        <p style="color: var(--rooh-muted); font-size: 0.9rem;">
+          سيظهر لكِ فوراً خط سير الطلب، حالة السداد، وتوقيت وصول المندوب لمحافظتكِ.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background: var(--rooh-dark); color: #FFF; padding: 2rem 0; text-align: center; font-size: 0.85rem; margin-top: auto;">
+    <div class="container">
+      © 2026 شركة رُوح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics).<br>
+      خدمة الشحن السريع لكافة محافظات جمهورية مصر العربية الـ 27 | هاتف الإدارة وخدمة العملاء: 01227208589
+    </div>
+  </footer>
+
+  <script src="data/seed.js"></script>
+  <script src="js/db.js"></script>
+  <script>
+    async function searchOrderTrack() {
+      const q = (document.getElementById('trackInput').value || '').trim().toLowerCase();
+      const container = document.getElementById('trackingResultContainer');
+      if (!q) return;
+
+      container.innerHTML = `
+        <div style="background:#FFF; padding:40px; border-radius:14px; text-align:center;">
+          <div class="luxury-spinner" style="width:36px; height:36px; border:3px solid var(--rooh-gold); border-top-color:transparent; border-radius:50%; margin:0 auto 12px; animation:spin 0.8s linear infinite;"></div>
+          <span>جاري جلب تفاصيل الشحنة من قاعدة البيانات...</span>
+        </div>
+      `;
+
+      const orders = await window.roohDB.getOrders('all');
+      const order = orders.find(o => 
+        (o.order_number && String(o.order_number).toLowerCase().includes(q)) ||
+        (o.id && o.id.toLowerCase().includes(q)) ||
+        (o.tracking_number && o.tracking_number.toLowerCase().includes(q)) ||
+        (o.customer_phone && o.customer_phone.includes(q)) ||
+        (o.customer && o.customer.phone && o.customer.phone.includes(q))
+      );
+
+      if (!order) {
+        container.innerHTML = `
+          <div style="background: #FFF; border-radius: 14px; padding: 3rem 1.5rem; text-align: center; border: 1px solid var(--rooh-border);">
+            <div style="font-size: 3rem; margin-bottom: 0.8rem;">🔍</div>
+            <h3 style="color: var(--rooh-dark); margin-bottom: 0.4rem;">لم نتمكن من العثور على طلب بهذا الرقم: "${q}"</h3>
+            <p style="color: var(--rooh-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+              يرجى التأكد من كتابة رقم الطلب بشكل صحيح (مثال: 1001) أو رقم هاتفكِ المسجل به الطلب.
+            </p>
+            <a href="https://wa.me/201227208589" target="_blank" class="btn-rooh btn-rooh-outline btn-rooh-sm">
+              <span>💬 تواصل مع خدمة العملاء (واتساب: 01227208589)</span>
+            </a>
+          </div>
+        `;
+        return;
+      }
+
+      // Status translation & step
+      const statusMap = {
+        'New': { label: 'تم استلام وتأكيد الطلب', step: 1, color: '#F57F17' },
+        'In Preparation': { label: 'جاري التجهيز والتركيب المعملي', step: 2, color: 'var(--rooh-gold)' },
+        'Out for Delivery': { label: 'في الطريق مع مندوب الشحن', step: 3, color: '#1976D2' },
+        'Delivered': { label: 'تم التسليم بنجاح للعميل', step: 4, color: '#2E7D32' },
+        'Cancelled': { label: 'ملغي', step: 0, color: '#C62828' }
+      };
+
+      const curStatus = statusMap[order.order_status] || { label: order.order_status, step: 1, color: 'var(--rooh-gold)' };
+      const customerName = order.customer_name || order.customer?.name || 'عميل روح المميز';
+      const gov = order.customer_governorate || order.customer?.governorate || 'القاهرة';
+      const address = order.customer_address || order.customer?.address || 'عنوان التوصيل المعتمد';
+
+      container.innerHTML = `
+        <div style="background:#FFF; border-radius:16px; border:1px solid var(--rooh-border); padding:26px; box-shadow:0 8px 30px rgba(45,59,45,0.06);">
+          <!-- Order Header Strip -->
+          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1.5px solid var(--rooh-border); padding-bottom:16px; margin-bottom:20px; flex-wrap:wrap; gap:12px;">
+            <div>
+              <span style="font-size:0.8rem; color:var(--rooh-muted); display:block;">رقم الطلب الرسمي:</span>
+              <h2 style="font-family:var(--rooh-font-serif); font-size:1.6rem; color:var(--rooh-dark); margin:0;">
+                #${order.order_number}
+              </h2>
+              <span style="font-size:0.8rem; color:var(--rooh-gold); font-family:monospace;">
+                ${order.tracking_number || `ROOH-EGY-${order.order_number}`}
+              </span>
+            </div>
+            <div style="text-align:left;">
+              <span style="display:inline-block; padding:6px 14px; border-radius:20px; background:${curStatus.color}22; color:${curStatus.color}; font-weight:800; font-size:0.9rem; border:1px solid ${curStatus.color};">
+                ● ${curStatus.label}
+              </span>
+              <div style="font-size:0.75rem; color:var(--rooh-muted); margin-top:4px;">
+                تاريخ الطلب: ${window.RoohUtil.formatDate(order.created_at || order.date)}
+              </div>
+            </div>
+          </div>
+
+          <!-- Progress Stepper (4 steps) -->
+          <div style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:8px; margin-bottom:24px; text-align:center;">
+            <div style="padding:10px 4px; border-radius:8px; background:${curStatus.step >= 1 ? '#E8F5E9' : '#F5F5F5'}; border:1px solid ${curStatus.step >= 1 ? '#81C784' : '#E0E0E0'};">
+              <span style="font-size:1.2rem;">📝</span>
+              <div style="font-size:0.75rem; font-weight:700; color:${curStatus.step >= 1 ? '#2E7D32' : '#9E9E9E'}; margin-top:4px;">1. تأكيد الطلب</div>
+            </div>
+            <div style="padding:10px 4px; border-radius:8px; background:${curStatus.step >= 2 ? '#E8F5E9' : '#F5F5F5'}; border:1px solid ${curStatus.step >= 2 ? '#81C784' : '#E0E0E0'};">
+              <span style="font-size:1.2rem;">🔬</span>
+              <div style="font-size:0.75rem; font-weight:700; color:${curStatus.step >= 2 ? '#2E7D32' : '#9E9E9E'}; margin-top:4px;">2. التجهيز المعملي</div>
+            </div>
+            <div style="padding:10px 4px; border-radius:8px; background:${curStatus.step >= 3 ? '#E8F5E9' : '#F5F5F5'}; border:1px solid ${curStatus.step >= 3 ? '#81C784' : '#E0E0E0'};">
+              <span style="font-size:1.2rem;">🚚</span>
+              <div style="font-size:0.75rem; font-weight:700; color:${curStatus.step >= 3 ? '#2E7D32' : '#9E9E9E'}; margin-top:4px;">3. جاري التوصيل</div>
+            </div>
+            <div style="padding:10px 4px; border-radius:8px; background:${curStatus.step >= 4 ? '#E8F5E9' : '#F5F5F5'}; border:1px solid ${curStatus.step >= 4 ? '#81C784' : '#E0E0E0'};">
+              <span style="font-size:1.2rem;">🎁</span>
+              <div style="font-size:0.75rem; font-weight:700; color:${curStatus.step >= 4 ? '#2E7D32' : '#9E9E9E'}; margin-top:4px;">4. تم التسليم</div>
+            </div>
+          </div>
+
+          <!-- Customer & Delivery Summary -->
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:24px; background:#FBF9F5; padding:16px; border-radius:12px; border:1px solid #ECE6DB;">
+            <div>
+              <strong style="color:var(--rooh-dark); display:block; margin-bottom:4px;">بيانات العميل والتوصيل:</strong>
+              <div style="font-size:0.85rem; color:var(--rooh-dark); line-height:1.6;">
+                • الاسم: <strong>${customerName}</strong><br>
+                • المحافظة: <strong>${gov}</strong><br>
+                • العنوان: ${address}
+              </div>
+            </div>
+            <div>
+              <strong style="color:var(--rooh-dark); display:block; margin-bottom:4px;">طريقة وسداد الفاتورة:</strong>
+              <div style="font-size:0.85rem; color:var(--rooh-dark); line-height:1.6;">
+                • طريقة الدفع: <strong>${order.payment_method || 'InstaPay'}</strong><br>
+                • حالة السداد: <strong style="color:${order.payment_status === 'Paid' ? '#2E7D32' : '#E65100'};">${order.payment_status === 'Paid' ? 'تم الدفع بنجاح ✓' : 'الدفع عند الاستلام'}</strong><br>
+                • الإجمالي النهائي: <strong style="color:var(--rooh-gold); font-size:1rem;">${order.total || order.total_amount} ج.م</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ordered Items List -->
+          <h4 style="font-size:1rem; color:var(--rooh-dark); margin:0 0 10px;">المستحضرات المطلوبة:</h4>
+          <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:20px;">
+            ${(order.items || []).map(i => `
+              <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px; background:#FAF8F5; border-radius:8px; border:1px solid #E8E2D8;">
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <img src="${i.image || 'assets/img/placeholder.png'}" style="width:40px; height:40px; object-fit:cover; border-radius:6px; border:1px solid var(--rooh-gold);" />
+                  <div>
+                    <strong style="font-size:0.9rem; color:var(--rooh-dark); display:block;">${i.name_ar || i.name || i.title}</strong>
+                    <span style="font-size:0.75rem; color:var(--rooh-muted);">${i.size || '50ml'} • الكمية: ${i.qty || 1}</span>
+                  </div>
+                </div>
+                <strong style="color:var(--rooh-gold); font-size:0.95rem;">
+                  ${(i.unit_price || i.price || 0) * (i.qty || 1)} ج.م
+                </strong>
+              </div>
+            `).join('')}
+          </div>
+
+          <!-- Live Timeline Log -->
+          <h4 style="font-size:1rem; color:var(--rooh-dark); margin:0 0 10px;">سجل حركة الطلب:</h4>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            ${(order.timeline || [{ status: 'New', time: order.created_at, note: 'تم استلام وتأكيد الطلب' }]).map(t => `
+              <div style="display:flex; align-items:center; gap:10px; font-size:0.82rem; padding:6px 0; border-bottom:1px dashed #E0E0E0;">
+                <span style="color:var(--rooh-gold); font-weight:800;">●</span>
+                <span style="flex:1; color:var(--rooh-dark);">${t.note || t.status}</span>
+                <span style="color:var(--rooh-muted); font-size:0.75rem;">${window.RoohUtil.formatDate(t.time)}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const orderParam = urlParams.get('order') || urlParams.get('q');
+      if (orderParam) {
+        document.getElementById('trackInput').value = orderParam;
+        searchOrderTrack();
+      }
+    });
+  </script>
+</body>
+</html>
+

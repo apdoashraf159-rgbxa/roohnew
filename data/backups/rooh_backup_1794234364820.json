@@ -1,0 +1,3596 @@
+{
+  "settings": {
+    "brand_name_ar": "ROOH – روح",
+    "brand_name_en": "ROOH Cosmetics",
+    "store_name_ar": "سوق روح للمستحضرات التجميل",
+    "store_name_en": "Souq ROOH",
+    "company_owner": "Abdulrahman",
+    "company_owner_ar": "عبدالرحمن",
+    "owner_phone": "01227208589",
+    "owner_whatsapp": "201227208589",
+    "owner_email": "abdulrahman@rooh-cosmetics.com",
+    "support_email": "support@rooh-cosmetics.com",
+    "currency": "EGP",
+    "currency_ar": "ج.م",
+    "free_shipping_threshold": 750,
+    "address_ar": "التجمع الخامس، شارع التسعين الشمالي، القاهرة الجديدة، مصر",
+    "address_en": "North 90th St, 5th Settlement, New Cairo, Egypt",
+    "tax_number": "EG-893-482-109",
+    "commercial_reg": "CR-74892-CAIRO",
+    "working_hours_ar": "السبت - الخميس: 10:00 صباحاً - 10:00 مساءً | الجمعة: 1:00 ظهراً - 10:00 مساءً",
+    "working_hours_en": "Sat - Thu: 10:00 AM - 10:00 PM | Fri: 1:00 PM - 10:00 PM"
+  },
+  "categories": [
+    {
+      "id": "skincare",
+      "name_ar": "العناية بالبشرة",
+      "name_en": "Skincare",
+      "description_ar": "سيرومات، كريمات ترطيب، ومستحضرات تفتيح طبيعية فاخرة",
+      "icon": "✨",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "haircare",
+      "name_ar": "العناية بالشعر",
+      "name_en": "Haircare",
+      "description_ar": "زيوت مغذية، معالجات ترميم الشعر، وشامبو خالي من السلفات",
+      "icon": "🌿",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "bodycare",
+      "name_ar": "العناية بالجسم",
+      "name_en": "Body Care",
+      "description_ar": "زبدة الجسم المخملية، مقشرات طبيعية، ولوشن عطري فائق النعومة",
+      "icon": "🧴",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "makeup",
+      "name_ar": "المكياج والتجميل",
+      "name_en": "Makeup",
+      "description_ar": "تنت طبيعي، بودرة حريرية، وأحمر شفاه مغذي بالفيتامينات",
+      "icon": "💄",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "perfumes",
+      "name_ar": "العطور والروائح",
+      "name_en": "Perfumes & Fragrances",
+      "description_ar": "عطور نيش شرقية وفرنسية وثبات يدوم لأكثر من 24 ساعة",
+      "icon": "🌸",
+      "order": 5,
+      "active": true
+    },
+    {
+      "id": "menscare",
+      "name_ar": "العناية بالرجل",
+      "name_en": "Men's Care",
+      "description_ar": "زيوت وغسول اللحية، كريمات ما بعد الحلاقة، ومستحضرات منعشة",
+      "icon": "🧔",
+      "order": 6,
+      "active": true
+    },
+    {
+      "id": "hygiene",
+      "name_ar": "النظافة الشخصية",
+      "name_en": "Personal Hygiene",
+      "description_ar": "مزيلات عرق طبيعية، غسول لطيف متوازن الحموضة، وصابون عضوي",
+      "icon": "🛁",
+      "order": 7,
+      "active": true
+    },
+    {
+      "id": "special_offers",
+      "name_ar": "عروض خاصة",
+      "name_en": "Special Offers",
+      "description_ar": "باقات توفير حصرية وتخفيضات موسمية تصل إلى 40%",
+      "icon": "🏷️",
+      "order": 8,
+      "active": true
+    },
+    {
+      "id": "new_arrivals",
+      "name_ar": "وصل حديثاً",
+      "name_en": "New Arrivals",
+      "description_ar": "أحدث ابتكارات معمل روح للعناية والجمال الملكي",
+      "icon": "🌟",
+      "order": 9,
+      "active": true
+    },
+    {
+      "id": "best_sellers",
+      "name_ar": "الأكثر مبيعاً",
+      "name_en": "Best Sellers",
+      "description_ar": "المنتجات الأكثر طلباً وإعجاباً من عملاء روح المميزين",
+      "icon": "👑",
+      "order": 10,
+      "active": true
+    },
+    {
+      "id": "customizer",
+      "name_ar": "اصنع منتجك بنفسك",
+      "name_en": "Create Your Own Product",
+      "description_ar": "مختبر ابتكار روح: خصص تركيبتك، مكوناتك، عطرك، وعبوتك الخاصة",
+      "icon": "🔬",
+      "order": 11,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "PRD-4795",
+      "name_ar": "كريم الليل الملكي لتجديد خلايا البشرة",
+      "name_en": "Royal Night Cellular Renewal Cream",
+      "category_id": "skincare",
+      "category_name_ar": "العناية بالبشرة",
+      "product_type": "face_cream",
+      "packaging_type": "frosted_luxury_jar",
+      "fragrance": "",
+      "color": "",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "SKU-4795",
+      "barcode": "622234364795",
+      "price": 480,
+      "original_price": 600,
+      "cost_price": 160,
+      "stock": 73,
+      "min_stock": 15,
+      "image": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg",
+      "images": [
+        "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg"
+      ],
+      "description_ar": "تركيبة غنية بالسيراميدات النباتية وببتيدات النضارة",
+      "usage_ar": "",
+      "ingredients_ar": "",
+      "specifications": "",
+      "sizes": [
+        "50ml"
+      ],
+      "colors": [],
+      "is_bestseller": false,
+      "is_new": false,
+      "status": "Active",
+      "rating": 5,
+      "reviews_count": 0,
+      "created_at": "2026-11-09T14:26:04.795Z"
+    },
+    {
+      "id": "ROOH-SK-001",
+      "name_ar": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+      "name_en": "Royal Glow Serum with Vitamin C & Damask Rose",
+      "category_id": "skincare",
+      "category_name_ar": "العناية بالبشرة",
+      "product_type": "skincare_serum",
+      "packaging_type": "amber_dropper_bottle",
+      "fragrance": "الورد الجوري الطبيعي والخوخ المخملي",
+      "color": "ذهبي نقي شفاف",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-GLOW-30ML",
+      "barcode": "6221098471012",
+      "price": 380,
+      "original_price": 460,
+      "cost_price": 115,
+      "stock": 83,
+      "min_stock": 15,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "سيروم مركز يحتوي على فيتامين سي نقي 15% مع ماء الورد الجوري وحمض الهيالورونيك لتوحيد لون البشرة وإعادة إشراقتها الشبابية.",
+      "usage_ar": "توضع 3 إلى 4 قطرات على بشرة نظيفة وجافة كل صباح، وتدلك برفق بحركات دائرية قبل وضع كريم الترطيب وواقي الشمس.",
+      "ingredients_ar": "حمض الأسكوربيك النقي 15%، ماء الورد الجوري العضوي، حمض الهيالورونيك، فيتامين E، خلاصة الصبار النقي، فيروليك أسيد.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "30ml",
+        "50ml"
+      ],
+      "colors": [],
+      "is_bestseller": true,
+      "is_new": false,
+      "status": "Active",
+      "rating": 4.9,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.105Z"
+    },
+    {
+      "id": "ROOH-SK-002",
+      "name_ar": "كريم الترطيب العميق بالسيراميد وحمض الهيالورونيك",
+      "name_en": "Deep Moisture Barrier Cream with Ceramides",
+      "category_id": "skincare",
+      "category_name_ar": "العناية بالبشرة",
+      "product_type": "face_cream",
+      "packaging_type": "frosted_luxury_jar",
+      "fragrance": "زهور البرتقال والبابونج المهدئ",
+      "color": "أبيض ناصع حريري",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-MOIST-50ML",
+      "barcode": "6221098471029",
+      "price": 320,
+      "original_price": 390,
+      "cost_price": 95,
+      "stock": 110,
+      "min_stock": 20,
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "كريم مخملي فاخر يرمم حاجز البشرة الواقي ويحبس الرطوبة لمدة 72 ساعة بفضل مركب السيراميد الثلاثي والنياسيناميد.",
+      "usage_ar": "يدلك بلطف على الوجه والرقبة صباحاً ومساءً كخطوة أخيرة في روتين العناية بالبشرة.",
+      "ingredients_ar": "سيراميد NP, AP, EOP، نياسيناميد 4%، زبدة الشيا العضوية، سكوالان نباتي، ببتيدات مجددة للأنسجة.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "50ml",
+        "100ml"
+      ],
+      "colors": [],
+      "is_bestseller": true,
+      "is_new": false,
+      "status": "Active",
+      "rating": 4.8,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-HR-001",
+      "name_ar": "إكسير الأرجان وزيت الروزماري لإطالة وكثافة الشعر",
+      "name_en": "Pure Argan & Rosemary Hair Growth Elixir",
+      "category_id": "haircare",
+      "category_name_ar": "العناية بالشعر",
+      "product_type": "hair_elixir",
+      "packaging_type": "emerald_glass_bottle",
+      "fragrance": "إكليل الجبل وزهور اللافندر",
+      "color": "أخضر زمردي زيتي شفاف",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-HAIR-100ML",
+      "barcode": "6221098471036",
+      "price": 290,
+      "original_price": 350,
+      "cost_price": 80,
+      "stock": 70,
+      "min_stock": 15,
+      "image": "https://images.unsplash.com/photo-1608248597359-59749fb811a2?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1608248597359-59749fb811a2?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "تركيبة ذهبية نقية تجمع بين زيت الأرجان المغربي المعصور على البارد وزيت إكليل الجبل العطري لتحفيز بصيلات الشعر وتقوية الجذور.",
+      "usage_ar": "توضع قطرات على فروة الرأس مع تدليك لطيف لمدة 5 دقائق، ويترك كحمام زيت لمدة ساعتين قبل الاستحمام مرتين أسبوعياً.",
+      "ingredients_ar": "زيت أرجان مغربي نقي 100%، زيت الروزماري العطري، زيت الخروع الجمايكي الأسود، زيت بذور الجوجوبا، فيتامين E.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "100ml"
+      ],
+      "colors": [],
+      "is_bestseller": true,
+      "is_new": false,
+      "status": "Active",
+      "rating": 4.9,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-BC-001",
+      "name_ar": "زبدة الجسم المخملية بالفانيليا وزبدة المورومورو",
+      "name_en": "Velvet Body Butter with Madagascar Vanilla",
+      "category_id": "bodycare",
+      "category_name_ar": "العناية بالجسم",
+      "product_type": "body_butter",
+      "packaging_type": "frosted_luxury_jar",
+      "fragrance": "فانيليا مدغشقر وجوز الهند الملكي",
+      "color": "عاجي كريمي مخملي",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-BODY-200G",
+      "barcode": "6221098471043",
+      "price": 260,
+      "original_price": 310,
+      "cost_price": 72,
+      "stock": 95,
+      "min_stock": 20,
+      "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "ملمس فائق النعومة يذوب فور ملامسته للبشرة ليمنح ترطيباً عميقاً وعطراً دافئاً يفوح بالفانيليا والعنبر الحلو.",
+      "usage_ar": "توزع كمية مناسبة على كامل الجسم بعد الاستحمام مباشرة والبشرة رطبة للحصول على ملمس حريري وعطر جذاب.",
+      "ingredients_ar": "زبدة الشيا الإفريقية غير المكررة، زبدة المورومورو البرازيلية، زيت اللوز الحلو، خلاصة الفانيليا الطبيعية، زيت الجوجوبا.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "200g"
+      ],
+      "colors": [],
+      "is_bestseller": false,
+      "is_new": true,
+      "status": "Active",
+      "rating": 4.7,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-PF-001",
+      "name_ar": "عطر 'روح العنبر الملكي' - أو دو بارفان نيش 100 مل",
+      "name_en": "ROOH Royal Amber - Eau De Parfum 100ml",
+      "category_id": "perfumes",
+      "category_name_ar": "العطور والروائح الملكية",
+      "product_type": "perfume",
+      "packaging_type": "heavy_crystal_flacon",
+      "fragrance": "العنبر الملكي، العود المعتق، والفانيليا السوداء",
+      "color": "عنبري دافئ",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-PERF-100ML",
+      "barcode": "6221098471050",
+      "price": 850,
+      "original_price": 1050,
+      "cost_price": 240,
+      "stock": 45,
+      "min_stock": 10,
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "توليفة ساحرة تأسر الحواس تمزج بين نفحات العود الكمبودي الفاخر والعنبر الرمادي الملكي ولمسات من البرغموت الإيطالي وزهر البرتقال.",
+      "usage_ar": "يرش على أماكن النبض: المعصمين، الرقبة، وخلف الأذنين للتمتع بثبات وفوحان يدوم لأكثر من 24 ساعة.",
+      "ingredients_ar": "كحول عطري طبيعي مقطر، زيوت عطرية نقية، عود كمبودي، عنبر ملكي، مسك أبيض، خلاصة الفانيليا وزهور النيرولي.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "100ml"
+      ],
+      "colors": [],
+      "is_bestseller": true,
+      "is_new": false,
+      "status": "Active",
+      "rating": 5,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-MK-001",
+      "name_ar": "تنت الشفاه والخدود الطبيعي بالرمان والشمندر",
+      "name_en": "Natural Lip & Cheek Tint with Pomegranate",
+      "category_id": "makeup",
+      "category_name_ar": "المكياج ومستحضرات التجميل",
+      "product_type": "makeup_tint",
+      "packaging_type": "sleek_applicator_tube",
+      "fragrance": "توت العليق الطبيعي",
+      "color": "ياقوتي كرزي دافئ",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-TINT-15ML",
+      "barcode": "6221098471067",
+      "price": 175,
+      "original_price": 220,
+      "cost_price": 42,
+      "stock": 140,
+      "min_stock": 25,
+      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "لون وردي طبيعي مفعم بالحيوية مستخلص من بذور الرمان والشمندر الطبيعي مع حمض الهيالورونيك لترطيب الشفاه طوال اليوم.",
+      "usage_ar": "توضع قطرات خفيفة على الوجنتين والشفاه وتدمج بسرعة بأطراف الأصابع أو الإسفنجة للحصول على مظهر نضر وجذاب.",
+      "ingredients_ar": "ماء الورد النقي، خلاصة الرمان، صبغة الشمندر الطبيعية، جلسرين نباتي، حمض الهيالورونيك، خلاصة الصبار.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "15ml"
+      ],
+      "colors": [],
+      "is_bestseller": true,
+      "is_new": false,
+      "status": "Active",
+      "rating": 4.8,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-MN-001",
+      "name_ar": "زيت اللحية الفاخر بخشب الأرز ونجيل الهند",
+      "name_en": "Gentleman's Cedarwood & Vetiver Beard Oil",
+      "category_id": "menscare",
+      "category_name_ar": "العناية بالرجل",
+      "product_type": "mens_grooming",
+      "packaging_type": "matte_black_dropper",
+      "fragrance": "خشب الأرز، الهيل، والبرغموت الإيطالي",
+      "color": "عسلي ذهبي شفاف",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-BEARD-50ML",
+      "barcode": "6221098471074",
+      "price": 240,
+      "original_price": 290,
+      "cost_price": 65,
+      "stock": 60,
+      "min_stock": 12,
+      "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "زيت رجالي متكامل يطري شعر اللحية الخشن ويمنحه لمعاناً صحياً ويغذي البشرة تحته لمنع الحكة والقشور مع عطر خشبي راقي.",
+      "usage_ar": "توضع 4 قطرات في راحة اليد وتوزع بالتساوي على شعر اللحية والشارب مع التدليك اللطيف.",
+      "ingredients_ar": "زيت الجوجوبا الذهبي، زيت بذور العنب، زيت الأرجان، زيت خشب الأرز العطري، نجيل الهند، فيتامين E.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "50ml"
+      ],
+      "colors": [],
+      "is_bestseller": false,
+      "is_new": true,
+      "status": "Active",
+      "rating": 4.9,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    },
+    {
+      "id": "ROOH-HY-001",
+      "name_ar": "مزيل العرق الكريمي الطبيعي بالزنك والشاي الأبيض",
+      "name_en": "Natural Cream Deodorant with Zinc & White Tea",
+      "category_id": "hygiene",
+      "category_name_ar": "النظافة الشخصية",
+      "product_type": "face_cream",
+      "packaging_type": "frosted_luxury_jar",
+      "fragrance": "زهور البرتقال والبابونج المهدئ",
+      "color": "أبيض ناصع حريري",
+      "brand": "روح لمستحضرات التجميل الملكية (ROOH Luxury Cosmetics)",
+      "sku": "ROOH-DEO-60G",
+      "barcode": "6221098471081",
+      "price": 160,
+      "original_price": 200,
+      "cost_price": 38,
+      "stock": 130,
+      "min_stock": 25,
+      "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80"
+      ],
+      "description_ar": "تركيبة مبتكرة خالية 100% من أملاح الألومنيوم والبارابين، تقضي على البكتيريا المسببة للرائحة وتفتح منطقة الإبط بلطف.",
+      "usage_ar": "تؤخذ كمية بحجم حبة البازلاء وتفرد بلطف على منطقة الإبط النظيفة والجافة يومياً.",
+      "ingredients_ar": "زنك ريسينوليات، زبدة الشيا العضوية، نشا الأروروت، زيت جوز الهند البكر، مستخلص الشاي الأبيض، زيت شجرة الشاي المركز.",
+      "specifications": "خالٍ من الكبريتات، غير مجرب على الحيوانات، مسجل بوزارة الصحة وهيئة الدواء المصرية.",
+      "sizes": [
+        "60g"
+      ],
+      "colors": [],
+      "is_bestseller": false,
+      "is_new": true,
+      "status": "Active",
+      "rating": 4.8,
+      "reviews_count": 12,
+      "created_at": "2026-11-09T14:02:17.129Z"
+    }
+  ],
+  "customizer_options": {
+    "types": [
+      {
+        "id": "serum",
+        "name_ar": "سيروم مركز للوجه",
+        "name_en": "Facial Serum",
+        "base_price": 220,
+        "base_cost": 55,
+        "icon": "💧"
+      },
+      {
+        "id": "cream",
+        "name_ar": "كريم ترطيب مخملي",
+        "name_en": "Luxury Face Cream",
+        "base_price": 240,
+        "base_cost": 60,
+        "icon": "🧴"
+      },
+      {
+        "id": "hair_elixir",
+        "name_ar": "إكسير الزيوت للشعر",
+        "name_en": "Hair Revitalizing Oil",
+        "base_price": 210,
+        "base_cost": 50,
+        "icon": "🌿"
+      },
+      {
+        "id": "body_butter",
+        "name_ar": "زبدة جسم مغذية",
+        "name_en": "Velvet Body Butter",
+        "base_price": 200,
+        "base_cost": 48,
+        "icon": "✨"
+      },
+      {
+        "id": "fragrance_mist",
+        "name_ar": "رذاذ عطري ملكي",
+        "name_en": "Royal Fragrance Mist",
+        "base_price": 260,
+        "base_cost": 65,
+        "icon": "🌸"
+      }
+    ],
+    "bases": [
+      {
+        "id": "aloe_rose",
+        "name_ar": "قاعدة هيدروسول الورد والصبار العضوي",
+        "price": 0,
+        "cost": 0,
+        "desc": "مهدئة وخفيفة سريعة الامتصاص"
+      },
+      {
+        "id": "argan_jojoba",
+        "name_ar": "قاعدة زيت الأرجان والجوجوبا المعصورين بارداً",
+        "price": 40,
+        "cost": 15,
+        "desc": "تغذية عميقة غنية بالأحماض الدهنية"
+      },
+      {
+        "id": "shea_murumuru",
+        "name_ar": "قاعدة زبدة الشيا والمورومورو النباتية",
+        "price": 30,
+        "cost": 12,
+        "desc": "ترطيب مكثف وترميم حاجز البشرة"
+      },
+      {
+        "id": "hyaluronic_marine",
+        "name_ar": "قاعدة الهيالورونيك والطحالب البحرية المتطورة",
+        "price": 50,
+        "cost": 18,
+        "desc": "حبس فوري للماء ومرونة فائقة"
+      }
+    ],
+    "active_ingredients": [
+      {
+        "id": "vit_c",
+        "name_ar": "فيتامين C النقي 15%",
+        "price": 45,
+        "cost": 14,
+        "benefit": "إشراقة وتفتيح البقع الداكنة",
+        "incompatible_with": [
+          "retinol"
+        ]
+      },
+      {
+        "id": "niacinamide",
+        "name_ar": "نياسيناميد نقي 5%",
+        "price": 35,
+        "cost": 10,
+        "benefit": "تضييق المسام وتنظيم الإفرازات الدهنية",
+        "incompatible_with": []
+      },
+      {
+        "id": "collagen",
+        "name_ar": "ببتيدات الكولاجين البحري",
+        "price": 55,
+        "cost": 18,
+        "benefit": "شد البشرة ومقاومة الخطوط الرفيعة",
+        "incompatible_with": []
+      },
+      {
+        "id": "hyaluronic_complex",
+        "name_ar": "مركب الهيالورونيك متعدد الأوزان الجزيئية",
+        "price": 40,
+        "cost": 12,
+        "benefit": "امتلاء البشرة وترطيب طبقاتها العميقة",
+        "incompatible_with": []
+      },
+      {
+        "id": "centella_tea_tree",
+        "name_ar": "خلاصة السنتيلا وشجرة الشاي المركز",
+        "price": 30,
+        "cost": 9,
+        "benefit": "تهدئة الاحمرار ومحاربة البكتيريا",
+        "incompatible_with": []
+      },
+      {
+        "id": "retinol",
+        "name_ar": "ريتينول مغلف 0.3% لطيف ومجدد",
+        "price": 50,
+        "cost": 16,
+        "benefit": "تجديد خلايا البشرة وتحفيز النضارة الليلية",
+        "incompatible_with": [
+          "vit_c"
+        ]
+      }
+    ],
+    "fragrances": [
+      {
+        "id": "damask_rose",
+        "name_ar": "الورد الجوري الملكي (Damask Rose)",
+        "price": 25,
+        "cost": 8
+      },
+      {
+        "id": "royal_oud",
+        "name_ar": "العود الأبيض والعنبر الدافئ (White Oud)",
+        "price": 35,
+        "cost": 12
+      },
+      {
+        "id": "french_lavender",
+        "name_ar": "اللافندر الفرنسي والبابونج المهدئ",
+        "price": 20,
+        "cost": 6
+      },
+      {
+        "id": "vanilla",
+        "name_ar": "فانيليا مدغشقر الغنية والكراميل",
+        "price": 20,
+        "cost": 6
+      },
+      {
+        "id": "bergamot",
+        "name_ar": "البرغموت الإيطالي وزهر النيرولي المنعش",
+        "price": 25,
+        "cost": 8
+      },
+      {
+        "id": "fragrance_free",
+        "name_ar": "خالٍ تماماً من العطور (للبشرة شديدة الحساسية)",
+        "price": 0,
+        "cost": 0
+      }
+    ],
+    "sizes": [
+      {
+        "id": "30ml",
+        "name_ar": "30 مل - حجم تجربة مثالي",
+        "multiplier": 1,
+        "bottle_cost_mod": 12
+      },
+      {
+        "id": "50ml",
+        "name_ar": "50 مل - الحجم القياسي المفضل",
+        "multiplier": 1.35,
+        "bottle_cost_mod": 18
+      },
+      {
+        "id": "100ml",
+        "name_ar": "100 مل - الحجم العائلي الفاخر",
+        "multiplier": 1.8,
+        "bottle_cost_mod": 28
+      },
+      {
+        "id": "150ml",
+        "name_ar": "150 مل - الحجم الكبير الاقتصادي",
+        "multiplier": 2.2,
+        "bottle_cost_mod": 35
+      }
+    ],
+    "packaging": [
+      {
+        "id": "amber_dropper",
+        "name_ar": "زجاجة عسلية معتمة بقطارة ذهبية لحماية التركيبة من الضوء",
+        "price": 25,
+        "cost": 10,
+        "icon": "💧"
+      },
+      {
+        "id": "airless_pump",
+        "name_ar": "مضخة عاجية فاخرة مانعة لدخول الهواء لحفظ الفعالية",
+        "price": 30,
+        "cost": 12,
+        "icon": "🧴"
+      },
+      {
+        "id": "crystal_jar",
+        "name_ar": "برطمان زجاجي بلوري بغطاء ذهبي ومعه ملعقة عاجية أنيقة",
+        "price": 35,
+        "cost": 15,
+        "icon": "✨"
+      },
+      {
+        "id": "mist_spray",
+        "name_ar": "بخاخ رذاذ بلوري فائق الدقة بلمسات الذهب الإيطالي",
+        "price": 25,
+        "cost": 10,
+        "icon": "🌸"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "id": "ORD-ROOH-1005",
+      "order_number": "1005",
+      "tracking_number": "ROOH-EGY-1005",
+      "customer_id": "CUST-4804",
+      "customer_name": "نورهان الدسوقي",
+      "customer_phone": "01099887766",
+      "customer_email": "nourhan@example.com",
+      "customer_governorate": "الإسكندرية",
+      "customer_address": "شارع فؤاد، سموحة، عمارة الأندلس، الدور الخامس",
+      "customer": {
+        "id": "CUST-4804",
+        "name": "نورهان الدسوقي",
+        "phone": "01099887766",
+        "email": "nourhan@example.com",
+        "governorate": "الإسكندرية",
+        "address": "شارع فؤاد، سموحة، عمارة الأندلس، الدور الخامس"
+      },
+      "items": [
+        {
+          "product_id": "PRD-4795",
+          "name_ar": "كريم الليل الملكي لتجديد خلايا البشرة",
+          "name_en": "Royal Night Cellular Renewal Cream",
+          "unit_price": 480,
+          "unit_cost": 160,
+          "qty": 2,
+          "subtotal": 960,
+          "size": "50ml",
+          "image": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg"
+        }
+      ],
+      "subtotal": 960,
+      "shipping_fee": 0,
+      "discount": 50,
+      "coupon_code": "ROOH10",
+      "total": 910,
+      "total_amount": 910,
+      "payment_method": "InstaPay",
+      "payment_status": "Paid",
+      "payment_reference": "INSTA-TXN-98412",
+      "order_status": "New",
+      "delivery_zone": "الإسكندرية",
+      "created_at": "2026-11-09T14:26:04.805Z",
+      "date": "2026-11-09T14:26:04.805Z",
+      "notes": "طلب شراء جديد من متجر روح الملكي",
+      "timeline": [
+        {
+          "status": "New",
+          "time": "2026-11-09T14:26:04.805Z",
+          "note": "تم استلام وتأكيد الطلب آلياً بنجاح في المنظومة"
+        }
+      ]
+    },
+    {
+      "id": "ROOH-2026-1004",
+      "order_number": "1004",
+      "date": "2026-11-04T22:54:44.140Z",
+      "customer": {
+        "id": "CUST-4140",
+        "name": "نور الهدى",
+        "phone": "01012345678",
+        "email": "nour@example.com",
+        "governorate": "الإسكندرية",
+        "zone": "",
+        "address": "محطة الرمل، شارع سعد زغلول"
+      },
+      "items": [
+        {
+          "product_id": "ROOH-SK-001",
+          "name": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+          "sku": "ROOH-GLOW-30ML",
+          "qty": 2,
+          "unit_price": 380,
+          "unit_cost": 115,
+          "total_price": 760,
+          "total_cost": 230,
+          "customization": null
+        }
+      ],
+      "subtotal": 760,
+      "discount": 0,
+      "shipping_fee": 0,
+      "total_amount": 760,
+      "cogs_total": 230,
+      "gross_profit": 530,
+      "payment_method": "InstaPay",
+      "payment_status": "Paid",
+      "payment_reference": "IP-99887766",
+      "order_status": "New",
+      "delivery_zone": "الإسكندرية",
+      "assigned_employee": "عبدالرحمن",
+      "internal_notes": "طلب فحص الآلية",
+      "timeline": [
+        {
+          "status": "New",
+          "time": "2026-11-04T22:54:44.142Z",
+          "note": "تم إنشاء الطلب بنجاح في المنظومة"
+        }
+      ]
+    },
+    {
+      "id": "ROOH-2026-1001",
+      "order_number": "1001",
+      "date": "2026-11-01T14:32:00Z",
+      "customer": {
+        "id": "CUST-001",
+        "name": "سارة أحمد النجار",
+        "phone": "01098765432",
+        "email": "sara.alnaggar@gmail.com",
+        "governorate": "القاهرة",
+        "address": "عمارة 14، شارع النصر، المعادي، القاهرة"
+      },
+      "items": [
+        {
+          "product_id": "ROOH-SK-001",
+          "name": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+          "sku": "ROOH-GLOW-30ML",
+          "qty": 1,
+          "unit_price": 380,
+          "unit_cost": 115,
+          "total_price": 380,
+          "total_cost": 115,
+          "customization": null
+        },
+        {
+          "product_id": "ROOH-SK-002",
+          "name": "كريم الترطيب العميق بالسيراميد وحمض الهيالورونيك",
+          "sku": "ROOH-MOIST-50ML",
+          "qty": 1,
+          "unit_price": 320,
+          "unit_cost": 95,
+          "total_price": 320,
+          "total_cost": 95,
+          "customization": null
+        }
+      ],
+      "subtotal": 700,
+      "discount": 0,
+      "shipping_fee": 45,
+      "total_amount": 745,
+      "cogs_total": 210,
+      "gross_profit": 490,
+      "profit_margin": 70,
+      "payment_method": "InstaPay",
+      "payment_status": "Paid",
+      "payment_reference": "IP-EG-98421894",
+      "order_status": "Processing",
+      "delivery_zone": "القاهرة الكبرى",
+      "assigned_employee": "أحمد محمود - مدير الطلبات",
+      "internal_notes": "العميلة طلبت تغليف هدية شريطة ذهبية فاخرة.",
+      "timeline": [
+        {
+          "status": "New",
+          "time": "2026-11-01T14:32:00Z",
+          "note": "تم إنشاء الطلب عبر متجر سوق روح"
+        },
+        {
+          "status": "Confirmed",
+          "time": "2026-11-01T15:00:00Z",
+          "note": "تم التحقق من تحويل إنستاباي بنجاح"
+        },
+        {
+          "status": "Processing",
+          "time": "2026-11-01T16:15:00Z",
+          "note": "الطلب قيد التجهيز والتغليف في المستودع"
+        }
+      ]
+    },
+    {
+      "id": "ROOH-2026-1002",
+      "order_number": "1002",
+      "date": "2026-11-02T10:15:00Z",
+      "customer": {
+        "id": "CUST-002",
+        "name": "مروة عبد المنعم",
+        "phone": "01123456789",
+        "email": "marwa.moniem@outlook.com",
+        "governorate": "الجيزة",
+        "address": "فيلا 8، حي الأشجار، مدينة 6 أكتوبر، الجيزة"
+      },
+      "items": [
+        {
+          "product_id": "CUSTOM-ROOH-991",
+          "name": "مستحضر مخصص: سيروم نضارة ندى الخاص",
+          "sku": "ROOH-CUST-SERUM",
+          "qty": 1,
+          "unit_price": 420,
+          "unit_cost": 125,
+          "total_price": 420,
+          "total_cost": 125,
+          "customization": {
+            "type": "Facial Serum",
+            "base": "قاعدة الهيالورونيك والطحالب البحرية المتطورة",
+            "actives": [
+              "فيتامين C النقي 15%",
+              "ببتيدات الكولاجين البحري"
+            ],
+            "fragrance": "الورد الجوري الملكي",
+            "size": "50ml",
+            "packaging": "مضخة عاجية فاخرة مانعة لدخول الهواء",
+            "custom_label": "سيروم إشراقة ندى الملكي"
+          }
+        }
+      ],
+      "subtotal": 420,
+      "discount": 0,
+      "shipping_fee": 50,
+      "total_amount": 470,
+      "cogs_total": 125,
+      "gross_profit": 295,
+      "profit_margin": 70.2,
+      "payment_method": "Vodafone Cash",
+      "payment_status": "Paid",
+      "payment_reference": "VF-90481231",
+      "order_status": "Ready for shipping",
+      "delivery_zone": "الجيزة وأكتوبر",
+      "assigned_employee": "أحمد محمود - مدير الطلبات",
+      "internal_notes": "تم تحضير التركيبة المعملية بنجاح واعتمادها من كيميائي المعمل.",
+      "timeline": [
+        {
+          "status": "New",
+          "time": "2026-11-02T10:15:00Z",
+          "note": "طلب مخصص من مختبر ابتكار روح"
+        },
+        {
+          "status": "Confirmed",
+          "time": "2026-11-02T10:45:00Z",
+          "note": "تأكيد إيداع فودافون كاش ومراجعة المحفظة"
+        },
+        {
+          "status": "Processing",
+          "time": "2026-11-02T11:30:00Z",
+          "note": "تم خلط المكونات وتعبئة العبوة وطباعة الملصق الخاص"
+        },
+        {
+          "status": "Ready for shipping",
+          "time": "2026-11-02T16:00:00Z",
+          "note": "جاهز لتسليم مندوب شركة بوسطة للشحن"
+        }
+      ]
+    },
+    {
+      "id": "ROOH-2026-1003",
+      "order_number": "1003",
+      "date": "2026-11-02T12:40:00Z",
+      "customer": {
+        "id": "CUST-003",
+        "name": "محمود إبراهيم الشناوي",
+        "phone": "01233445566",
+        "email": "m.elshinawy@yahoo.com",
+        "governorate": "الإسكندرية",
+        "address": "45 طريق الجيش، سيدي جابر، الإسكندرية"
+      },
+      "items": [
+        {
+          "product_id": "ROOH-PF-001",
+          "name": "عطر 'روح العنبر الملكي' - أو دو بارفان نيش 100 مل",
+          "sku": "ROOH-PERF-100ML",
+          "qty": 1,
+          "unit_price": 850,
+          "unit_cost": 240,
+          "total_price": 850,
+          "total_cost": 240,
+          "customization": null
+        }
+      ],
+      "subtotal": 850,
+      "discount": 0,
+      "shipping_fee": 0,
+      "total_amount": 850,
+      "cogs_total": 240,
+      "gross_profit": 610,
+      "profit_margin": 71.76,
+      "payment_method": "Cash on Delivery",
+      "payment_status": "Unpaid",
+      "payment_reference": "COD-PENDING",
+      "order_status": "Shipped",
+      "delivery_zone": "الإسكندرية والساحل",
+      "assigned_employee": "أحمد محمود - مدير الطلبات",
+      "internal_notes": "شحن مجاني لأن الطلب تخطى 750 ج.م.",
+      "timeline": [
+        {
+          "status": "New",
+          "time": "2026-11-02T12:40:00Z",
+          "note": "طلب دفع عند الاستلام جديد"
+        },
+        {
+          "status": "Confirmed",
+          "time": "2026-11-02T13:10:00Z",
+          "note": "تم تأكيد العنوان هاتفياً مع العميل"
+        },
+        {
+          "status": "Processing",
+          "time": "2026-11-02T14:00:00Z",
+          "note": "تجهيز العطر مع بطاقة إهداء فاخرة"
+        },
+        {
+          "status": "Shipped",
+          "time": "2026-11-02T17:30:00Z",
+          "note": "تم تسليم الشحنة لشركة بوسطة بوليصة رقم BST-EG-893012"
+        }
+      ]
+    }
+  ],
+  "chart_of_accounts": [
+    {
+      "code": "1010",
+      "name_ar": "الخزينة النقدية (الكاش)",
+      "name_en": "Cash on Hand",
+      "type": "Asset",
+      "normal_balance": "Debit",
+      "balance": 24500
+    },
+    {
+      "code": "1020",
+      "name_ar": "المحافظ الإلكترونية والحسابات البنكية (إنستاباي وفودافون كاش)",
+      "name_en": "Bank & Electronic Wallets",
+      "type": "Asset",
+      "normal_balance": "Debit",
+      "balance": 68420
+    },
+    {
+      "code": "1100",
+      "name_ar": "حسابات العملاء والمدينون (الذمم المدينة)",
+      "name_en": "Accounts Receivable",
+      "type": "Asset",
+      "normal_balance": "Debit",
+      "balance": 4850
+    },
+    {
+      "code": "1200",
+      "name_ar": "مخزون المنتجات التجميلية الجاهزة",
+      "name_en": "Finished Cosmetics Inventory",
+      "type": "Asset",
+      "normal_balance": "Debit",
+      "balance": 184500
+    },
+    {
+      "code": "1250",
+      "name_ar": "مخزون المواد الخام والعبوات والتغليف",
+      "name_en": "Raw Materials & Packaging Inventory",
+      "type": "Asset",
+      "normal_balance": "Debit",
+      "balance": 92300
+    },
+    {
+      "code": "2010",
+      "name_ar": "حسابات الموردين والدائنون (الذمم الدائنة)",
+      "name_en": "Accounts Payable",
+      "type": "Liability",
+      "normal_balance": "Credit",
+      "balance": 31200
+    },
+    {
+      "code": "3010",
+      "name_ar": "رأس مال المالك - عبد الرحمن",
+      "name_en": "Owner Equity - Abdulrahman",
+      "type": "Equity",
+      "normal_balance": "Credit",
+      "balance": 300000
+    },
+    {
+      "code": "3020",
+      "name_ar": "الأرباح المحتجزة / المرحلة",
+      "name_en": "Retained Earnings",
+      "type": "Equity",
+      "normal_balance": "Credit",
+      "balance": 43370
+    },
+    {
+      "code": "4010",
+      "name_ar": "إيرادات مبيعات المتجر الإلكتروني",
+      "name_en": "Store Sales Revenue",
+      "type": "Revenue",
+      "normal_balance": "Credit",
+      "balance": 154200
+    },
+    {
+      "code": "4020",
+      "name_ar": "إيرادات المنتجات المخصصة (المختبر)",
+      "name_en": "Custom Product Revenue",
+      "type": "Revenue",
+      "normal_balance": "Credit",
+      "balance": 38400
+    },
+    {
+      "code": "4030",
+      "name_ar": "إيرادات رسوم الشحن والتوصيل",
+      "name_en": "Shipping Revenue",
+      "type": "Revenue",
+      "normal_balance": "Credit",
+      "balance": 8650
+    },
+    {
+      "code": "5010",
+      "name_ar": "تكلفة البضاعة المباعة - مستحضرات التجميل",
+      "name_en": "Cost of Goods Sold - Products",
+      "type": "COGS",
+      "normal_balance": "Debit",
+      "balance": 52400
+    },
+    {
+      "code": "5020",
+      "name_ar": "تكلفة العبوات والتغليف المباشر",
+      "name_en": "Packaging COGS",
+      "type": "COGS",
+      "normal_balance": "Debit",
+      "balance": 14200
+    },
+    {
+      "code": "6010",
+      "name_ar": "مصاريف شركات الشحن والتوصيل",
+      "name_en": "Shipping Partner Expenses",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 7800
+    },
+    {
+      "code": "6020",
+      "name_ar": "مصاريف التسويق والإعلانات الممولة",
+      "name_en": "Marketing & Ads",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 16500
+    },
+    {
+      "code": "6030",
+      "name_ar": "المرتبات والأجور والمكافآت",
+      "name_en": "Salaries & Wages",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 22000
+    },
+    {
+      "code": "6040",
+      "name_ar": "إيجار المقر والمعمل والمستودع",
+      "name_en": "Rent & Facilities",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 15000
+    },
+    {
+      "code": "6050",
+      "name_ar": "الكهرباء والمرافق والإنترنت",
+      "name_en": "Utilities & Internet",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 3400
+    },
+    {
+      "code": "6060",
+      "name_ar": "البرمجيات والاستضافة والأنظمة السحابية",
+      "name_en": "Software & Subscriptions",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 2800
+    },
+    {
+      "code": "6070",
+      "name_ar": "مستهلكات التعبئة والتغليف والكراتين",
+      "name_en": "Packaging Supplies",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 4100
+    },
+    {
+      "code": "6080",
+      "name_ar": "الصيانة والأدوات المكتبية والضيافة",
+      "name_en": "Maintenance & Office",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 1950
+    },
+    {
+      "code": "6090",
+      "name_ar": "مصروفات تشغيلية ونثرية أخرى",
+      "name_en": "Other Miscellaneous Expenses",
+      "type": "Expense",
+      "normal_balance": "Debit",
+      "balance": 1420
+    }
+  ],
+  "journal_entries": [
+    {
+      "id": "JE-2026-001",
+      "entry_number": "JE-001",
+      "date": "2026-11-01T14:35:00Z",
+      "description": "قيد مبيعات الطلب رقم 1001 (إنستاباي) وإثبات تكلفة البضاعة المباعة",
+      "ref_type": "Order",
+      "ref_id": "ROOH-2026-1001",
+      "lines": [
+        {
+          "account_code": "1020",
+          "account_name": "المحافظ الإلكترونية والحسابات البنكية",
+          "debit": 745,
+          "credit": 0
+        },
+        {
+          "account_code": "4010",
+          "account_name": "إيرادات مبيعات المتجر الإلكتروني",
+          "debit": 0,
+          "credit": 700
+        },
+        {
+          "account_code": "4030",
+          "account_name": "إيرادات رسوم الشحن والتوصيل",
+          "debit": 0,
+          "credit": 45
+        },
+        {
+          "account_code": "5010",
+          "account_name": "تكلفة البضاعة المباعة - مستحضرات التجميل",
+          "debit": 210,
+          "credit": 0
+        },
+        {
+          "account_code": "1200",
+          "account_name": "مخزون المنتجات التجميلية الجاهزة",
+          "debit": 0,
+          "credit": 210
+        }
+      ],
+      "total_debit": 955,
+      "total_credit": 955,
+      "balanced": true
+    },
+    {
+      "id": "JE-2026-002",
+      "entry_number": "JE-002",
+      "date": "2026-11-02T10:48:00Z",
+      "description": "قيد مبيعات الطلب المخصص رقم 1002 (فودافون كاش) وإثبات تكلفة المواد والعبوة",
+      "ref_type": "Order",
+      "ref_id": "ROOH-2026-1002",
+      "lines": [
+        {
+          "account_code": "1020",
+          "account_name": "المحافظ الإلكترونية والحسابات البنكية",
+          "debit": 470,
+          "credit": 0
+        },
+        {
+          "account_code": "4020",
+          "account_name": "إيرادات المنتجات المخصصة (المختبر)",
+          "debit": 0,
+          "credit": 420
+        },
+        {
+          "account_code": "4030",
+          "account_name": "إيرادات رسوم الشحن والتوصيل",
+          "debit": 0,
+          "credit": 50
+        },
+        {
+          "account_code": "5010",
+          "account_name": "تكلفة البضاعة المباعة - مستحضرات التجميل",
+          "debit": 125,
+          "credit": 0
+        },
+        {
+          "account_code": "1250",
+          "account_name": "مخزون المواد الخام والعبوات والتغليف",
+          "debit": 0,
+          "credit": 125
+        }
+      ],
+      "total_debit": 595,
+      "total_credit": 595,
+      "balanced": true
+    },
+    {
+      "id": "JE-2026-003",
+      "entry_number": "JE-003",
+      "date": "2026-11-02T12:45:00Z",
+      "description": "قيد إثبات شحن طلب رقم 1003 ذمم مدينة (دفع عند الاستلام لم يحصل بعد)",
+      "ref_type": "Order",
+      "ref_id": "ROOH-2026-1003",
+      "lines": [
+        {
+          "account_code": "1100",
+          "account_name": "حسابات العملاء والمدينون",
+          "debit": 850,
+          "credit": 0
+        },
+        {
+          "account_code": "4010",
+          "account_name": "إيرادات مبيعات المتجر الإلكتروني",
+          "debit": 0,
+          "credit": 850
+        },
+        {
+          "account_code": "5010",
+          "account_name": "تكلفة البضاعة المباعة - مستحضرات التجميل",
+          "debit": 240,
+          "credit": 0
+        },
+        {
+          "account_code": "1200",
+          "account_name": "مخزون المنتجات التجميلية الجاهزة",
+          "debit": 0,
+          "credit": 240
+        }
+      ],
+      "total_debit": 1090,
+      "total_credit": 1090,
+      "balanced": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-2026-001",
+      "description": "شراء عبوات زجاجية فاخرة وقطارات ذهبية من شركة الأهرام للتغليف",
+      "category": "Packaging",
+      "category_ar": "التعبئة والتغليف",
+      "amount": 4500,
+      "date": "2026-11-01",
+      "payment_method": "InstaPay",
+      "recipient": "شركة الأهرام للتغليف والزجاج",
+      "notes": "دفعة توريد 1000 زجاجة عسلية سعة 30 و 50 مل مع قطارات ومضخات",
+      "receipt_attachment": "receipt_packaging_001.pdf",
+      "created_by": "عبدالرحمن (المالك)"
+    },
+    {
+      "id": "EXP-2026-002",
+      "description": "حملة إعلانات ممولة على إنستغرام وتيك توك لإطلاق عطر روح العنبر",
+      "category": "Marketing",
+      "category_ar": "التسويق والإعلانات",
+      "amount": 3200,
+      "date": "2026-11-01",
+      "payment_method": "Credit Card",
+      "recipient": "Meta Ads & TikTok Ads",
+      "notes": "استهداف مهتمين بالعطور ومستحضرات العناية بالقاهرة والإسكندرية",
+      "receipt_attachment": "meta_invoice_nov.pdf",
+      "created_by": "سارة - مديرة التسويق"
+    },
+    {
+      "id": "EXP-2026-003",
+      "description": "سداد فواتير شحن شهرية مستحقة لشركة بوسطة للشحن السريع",
+      "category": "Shipping",
+      "category_ar": "الشحن والتوصيل",
+      "amount": 2850,
+      "date": "2026-11-02",
+      "payment_method": "Vodafone Cash",
+      "recipient": "شركة بوسطة مصر للتوصيل",
+      "notes": "تسوية شحنات الأسبوع الأخير لجميع المحافظات",
+      "receipt_attachment": "bosta_statement_oct.pdf",
+      "created_by": "أحمد محمود - مدير العمليات"
+    },
+    {
+      "id": "EXP-2026-004",
+      "description": "شراء خامات طبيعية: فيتامين سي نقي، نياسيناميد، وهيدروسول الورد من معامل القاهرة",
+      "category": "Raw materials",
+      "category_ar": "المواد الخام",
+      "amount": 6200,
+      "date": "2026-10-30",
+      "payment_method": "Bank Transfer",
+      "recipient": "معامل القاهرة للمستخلصات النباتية",
+      "notes": "شهادات التحليل المعملي والنقاء مرفقة مع الفاتورة",
+      "receipt_attachment": "lab_cert_materials.pdf",
+      "created_by": "عبدالرحمن (المالك)"
+    }
+  ],
+  "income_transactions": [
+    {
+      "id": "INC-1794234364805",
+      "date": "2026-11-09T14:26:04.805Z",
+      "source": "مبيعات متجر روح - طلب #1005",
+      "amount": 910,
+      "category": "sales",
+      "method": "InstaPay"
+    },
+    {
+      "id": "TXN-884142",
+      "date": "2026-11-04T22:54:44.142Z",
+      "type": "Store Sale",
+      "type_ar": "مبيعات المتجر الإلكتروني",
+      "amount": 760,
+      "method": "InstaPay",
+      "reference": "IP-99887766",
+      "order_id": "ROOH-2026-1004",
+      "status": "Confirmed",
+      "notes": "تحصيل قيمة الطلب رقم #1004"
+    },
+    {
+      "id": "TXN-2026-101",
+      "date": "2026-11-01T14:34:00Z",
+      "type": "Store Sale",
+      "type_ar": "مبيعات المتجر",
+      "amount": 745,
+      "method": "InstaPay",
+      "reference": "IP-EG-98421894",
+      "order_id": "ROOH-2026-1001",
+      "status": "Confirmed",
+      "notes": "تحويل فوري عبر تطبيق إنستاباي تم تأكيده مع كشف الحساب"
+    },
+    {
+      "id": "TXN-2026-102",
+      "date": "2026-11-02T10:46:00Z",
+      "type": "Custom Lab Sale",
+      "type_ar": "مبيعات المختبر المخصص",
+      "amount": 470,
+      "method": "Vodafone Cash",
+      "reference": "VF-90481231",
+      "order_id": "ROOH-2026-1002",
+      "status": "Confirmed",
+      "notes": "تحويل محفظة فودافون كاش على رقم الشركة 01227208589"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": "MOV-1794234364804-w2ww",
+      "date": "2026-11-09T14:26:04.805Z",
+      "product_id": "PRD-4795",
+      "product_name_ar": "كريم الليل الملكي لتجديد خلايا البشرة",
+      "movement_type": "sale_deduction",
+      "type_ar": "صرف مبيعات للطلب",
+      "quantity": -2,
+      "reference_id": "ORD-ROOH-1005",
+      "balance_after": 73
+    },
+    {
+      "id": "MOV-001",
+      "date": "2026-11-01T14:35:00Z",
+      "product_id": "ROOH-SK-001",
+      "product_name": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+      "type": "Sale Deduction",
+      "qty_change": -1,
+      "reason": "خصم تلقائي لتنفيذ الطلب رقم ROOH-2026-1001",
+      "user": "النظام الآلي"
+    },
+    {
+      "id": "MOV-002",
+      "date": "2026-11-01T14:35:00Z",
+      "product_id": "ROOH-SK-002",
+      "product_name": "كريم الترطيب العميق بالسيراميد وحمض الهيالورونيك",
+      "type": "Sale Deduction",
+      "qty_change": -1,
+      "reason": "خصم تلقائي لتنفيذ الطلب رقم ROOH-2026-1001",
+      "user": "النظام الآلي"
+    },
+    {
+      "id": "MOV-003",
+      "date": "2026-11-02T12:45:00Z",
+      "product_id": "ROOH-PF-001",
+      "product_name": "عطر 'روح العنبر الملكي' - أو دو بارفان نيش 100 مل",
+      "type": "Sale Deduction",
+      "qty_change": -1,
+      "reason": "خصم لتنفيذ وشحن الطلب رقم ROOH-2026-1003",
+      "user": "أحمد محمود"
+    },
+    {
+      "id": "MOV-884140",
+      "date": "2026-11-04T22:54:44.140Z",
+      "product_id": "ROOH-SK-001",
+      "product_name": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+      "type": "Sale Deduction",
+      "qty_change": -2,
+      "reason": "خصم بيع لتنفيذ الطلب #1004",
+      "user": "النظام الآلي"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "name": "شركة الأهرام للتغليف والزجاج الدوائي",
+      "contact_person": "م. طارق العشري",
+      "phone": "01001234567",
+      "email": "tarek@ahram-packaging.com",
+      "category": "عبوات وزجاج وقطارات",
+      "total_purchases": 54000,
+      "balance_owed": 12500,
+      "payment_terms": "30 يوماً من تاريخ الفاتورة"
+    },
+    {
+      "id": "SUP-002",
+      "name": "معامل القاهرة للمستخلصات والزيوت الطبيعية",
+      "contact_person": "د. هدى منصور",
+      "phone": "01112233445",
+      "email": "dr.hoda@cairo-botanicals.com",
+      "category": "زيوت نباتية ومواد فعالة نقية",
+      "total_purchases": 88000,
+      "balance_owed": 18700,
+      "payment_terms": "دفع 50% مقدماً والباقي عند الاستلام"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "PO-2026-001",
+      "supplier_id": "SUP-001",
+      "supplier_name": "شركة الأهرام للتغليف والزجاج الدوائي",
+      "date": "2026-10-25",
+      "total_amount": 18000,
+      "paid_amount": 12000,
+      "remaining_amount": 6000,
+      "status": "Received",
+      "items": "500 زجاجة عسلية قطارة + 500 مضخة عاجية + كراتين شحن فاخرة"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-001",
+      "name": "سارة أحمد النجار",
+      "phone": "01098765432",
+      "email": "sara.alnaggar@gmail.com",
+      "governorate": "القاهرة",
+      "address": "عمارة 14، شارع النصر، المعادي",
+      "registration_date": "2026-09-12",
+      "total_orders": 4,
+      "total_purchases": 2680,
+      "total_payments": 2680,
+      "outstanding_balance": 0,
+      "refund_history": 0,
+      "last_order_date": "2026-11-01",
+      "tag": "VIP",
+      "notes": "عميلة مميزة تفضل سيروم فيتامين سي وتطلب تغليف هدايا دائماً"
+    },
+    {
+      "id": "CUST-002",
+      "name": "مروة عبد المنعم",
+      "phone": "01123456789",
+      "email": "marwa.moniem@outlook.com",
+      "governorate": "الجيزة",
+      "address": "فيلا 8، حي الأشجار، 6 أكتوبر",
+      "registration_date": "2026-10-05",
+      "total_orders": 2,
+      "total_purchases": 980,
+      "total_payments": 980,
+      "outstanding_balance": 0,
+      "refund_history": 0,
+      "last_order_date": "2026-11-02",
+      "tag": "Returning",
+      "notes": "مهتمة بمنتجات العناية بالبشرة المخصصة والمختبر"
+    },
+    {
+      "id": "CUST-003",
+      "name": "محمود إبراهيم الشناوي",
+      "phone": "01233445566",
+      "email": "m.elshinawy@yahoo.com",
+      "governorate": "الإسكندرية",
+      "address": "45 طريق الجيش، سيدي جابر",
+      "registration_date": "2026-11-02",
+      "total_orders": 1,
+      "total_purchases": 850,
+      "total_payments": 0,
+      "outstanding_balance": 850,
+      "refund_history": 0,
+      "last_order_date": "2026-11-02",
+      "tag": "New",
+      "notes": "طلب عطر روح العنبر الملكي دفع عند الاستلام الشحنة في الطريق"
+    },
+    {
+      "id": "CUST-4140",
+      "name": "نور الهدى",
+      "phone": "01012345678",
+      "email": "nour@example.com",
+      "governorate": "الإسكندرية",
+      "address": "محطة الرمل، شارع سعد زغلول",
+      "registration_date": "2026-11-04",
+      "total_orders": 1,
+      "total_purchases": 760,
+      "total_payments": 760,
+      "outstanding_balance": 0,
+      "last_order_date": "2026-11-04",
+      "tag": "New"
+    },
+    {
+      "id": "CUST-4804",
+      "name": "نورهان الدسوقي",
+      "phone": "01099887766",
+      "email": "nourhan@example.com",
+      "governorate": "الإسكندرية",
+      "address": "شارع فؤاد، سموحة، عمارة الأندلس، الدور الخامس",
+      "total_orders": 1,
+      "total_spent": 910,
+      "created_at": "2026-11-09T14:26:04.804Z"
+    }
+  ],
+  "shipping_zones": [
+    {
+      "id": "GOV-CAI",
+      "name_ar": "القاهرة",
+      "name_en": "Cairo",
+      "zone": "Zone 1 - Capital",
+      "fee": 45,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-GIZ",
+      "name_ar": "الجيزة",
+      "name_en": "Giza",
+      "zone": "Zone 1 - Capital",
+      "fee": 45,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-QAL",
+      "name_ar": "القليوبية",
+      "name_en": "Qalyubia",
+      "zone": "Zone 1 - Greater Cairo",
+      "fee": 50,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-ALX",
+      "name_ar": "الإسكندرية",
+      "name_en": "Alexandria",
+      "zone": "Zone 2 - Coastal",
+      "fee": 55,
+      "days": "48 ساعة"
+    },
+    {
+      "id": "GOV-BEH",
+      "name_ar": "البحيرة",
+      "name_en": "Beheira",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MAT",
+      "name_ar": "مطروح",
+      "name_en": "Matrouh",
+      "zone": "Zone 4 - Frontier",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-DAM",
+      "name_ar": "دمياط",
+      "name_en": "Damietta",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-DKH",
+      "name_ar": "الدقهلية (المنصورة)",
+      "name_en": "Dakahlia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-KFS",
+      "name_ar": "كفر الشيخ",
+      "name_en": "Kafr El Sheikh",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-GHB",
+      "name_ar": "الغربية (طنطا)",
+      "name_en": "Gharbia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MNF",
+      "name_ar": "المنوفية",
+      "name_en": "Menofia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-SHR",
+      "name_ar": "الشرقية (الزقازيق)",
+      "name_en": "Sharqia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-ISL",
+      "name_ar": "الإسماعيلية",
+      "name_en": "Ismailia",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-PTS",
+      "name_ar": "بورسعيد",
+      "name_en": "Port Said",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-SUZ",
+      "name_ar": "السويس",
+      "name_en": "Suez",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-BNS",
+      "name_ar": "بني سويف",
+      "name_en": "Beni Suef",
+      "zone": "Zone 4 - North Upper",
+      "fee": 70,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-FYM",
+      "name_ar": "الفيوم",
+      "name_en": "Fayoum",
+      "zone": "Zone 4 - North Upper",
+      "fee": 70,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MNY",
+      "name_ar": "المنيا",
+      "name_en": "Minya",
+      "zone": "Zone 4 - North Upper",
+      "fee": 75,
+      "days": "2-4 أيام"
+    },
+    {
+      "id": "GOV-ASY",
+      "name_ar": "أسيوط",
+      "name_en": "Asyut",
+      "zone": "Zone 4 - Middle Upper",
+      "fee": 75,
+      "days": "2-4 أيام"
+    },
+    {
+      "id": "GOV-SOH",
+      "name_ar": "سوهاج",
+      "name_en": "Sohag",
+      "zone": "Zone 4 - Middle Upper",
+      "fee": 80,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-QNA",
+      "name_ar": "قنا",
+      "name_en": "Qena",
+      "zone": "Zone 5 - South Upper",
+      "fee": 80,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-LXU",
+      "name_ar": "الأقصر",
+      "name_en": "Luxor",
+      "zone": "Zone 5 - South Upper",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-ASW",
+      "name_ar": "أسوان",
+      "name_en": "Aswan",
+      "zone": "Zone 5 - South Upper",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-RED",
+      "name_ar": "البحر الأحمر (الغردقة)",
+      "name_en": "Red Sea",
+      "zone": "Zone 5 - Coastal Red Sea",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-NVL",
+      "name_ar": "الوادي الجديد",
+      "name_en": "New Valley",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "4-5 أيام"
+    },
+    {
+      "id": "GOV-SIN",
+      "name_ar": "شمال سيناء",
+      "name_en": "North Sinai",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "4-5 أيام"
+    },
+    {
+      "id": "GOV-SIS",
+      "name_ar": "جنوب سيناء (شرم الشيخ)",
+      "name_en": "South Sinai",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "3-4 أيام"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "CMP-2026-001",
+      "customer_name": "ندى حسن البدري",
+      "phone": "01055667788",
+      "order_number": "1001",
+      "category": "استفسار عن طريقة الاستخدام",
+      "details": "أريد معرفة هل يمكنني استخدام سيروم فيتامين سي صباحاً قبل التعرض للشمس؟",
+      "submission_date": "2026-11-02T11:00:00Z",
+      "status": "Resolved",
+      "resolution_notes": "تم التواصل هاتفياً من قبل أخصائية العناية، وتوضيح ضرورة استخدام واقي شمس SPF 50+ بعد السيروم لحماية البشرة.",
+      "assigned_to": "عبدالرحمن (المالك)"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV-001",
+      "product_id": "ROOH-SK-001",
+      "customer_name": "د. ميار مصطفى",
+      "rating": 5,
+      "title": "سيروم يفوق البراندات العالمية بمراحل!",
+      "comment": "استخدمت سيرومات فيتامين سي من أشهر الماركات الفرنسية، لكن تركيبة روح تميزت بسرعة الامتصاص والنعومة الفائقة بدون أي تحسس. أثر النضارة ظهر في أسبوع واحد فقط!",
+      "verified_purchase": true,
+      "status": "Approved",
+      "featured": true,
+      "date": "2026-10-28"
+    },
+    {
+      "id": "REV-002",
+      "product_id": "ROOH-PF-001",
+      "customer_name": "إسلام رضوان",
+      "rating": 5,
+      "title": "عطر فاخر وثبات أسطوري",
+      "comment": "عطر روح العنبر الملكي له بصمة فريدة وفوحان يملأ المكان. كل من حولي يسألني عن سر هذا العطر. فخور جداً بوجود منتج مصري بهذا المستوى الرفيع.",
+      "verified_purchase": true,
+      "status": "Approved",
+      "featured": true,
+      "date": "2026-10-31"
+    },
+    {
+      "id": "REV-003",
+      "product_id": "CUSTOM-ROOH-991",
+      "customer_name": "ياسمين القاضي",
+      "rating": 5,
+      "title": "تجربة مختبر ابتكار روح ممتعة جداً",
+      "comment": "فكرة أن أختار بنفسي المكونات الفعالة المناسبة لبشرتي مع العطر الزهري والعبوة العاجية وكتبوا اسمي على الزجاجة! تجربة فخمة تشعرني بالخصوصية المطلقة.",
+      "verified_purchase": true,
+      "status": "Approved",
+      "featured": true,
+      "date": "2026-11-02"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-001",
+      "name": "عبدالرحمن",
+      "role": "Owner",
+      "phone": "01227208589",
+      "email": "abdulrahman@rooh-cosmetics.com",
+      "permissions": [
+        "all"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "EMP-002",
+      "name": "أحمد محمود",
+      "role": "Order & Operations Manager",
+      "phone": "01011122233",
+      "email": "ahmed.orders@rooh-cosmetics.com",
+      "permissions": [
+        "orders_read",
+        "orders_write",
+        "shipping_manage",
+        "inventory_read"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "EMP-003",
+      "name": "كريم فؤاد",
+      "role": "Chief Accountant",
+      "phone": "01122233344",
+      "email": "karim.finance@rooh-cosmetics.com",
+      "permissions": [
+        "accounting_read",
+        "accounting_write",
+        "expenses_manage",
+        "reports_read"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "EMP-004",
+      "name": "سارة الشريف",
+      "role": "Customer Support & AI Specialist",
+      "phone": "01233344455",
+      "email": "sara.support@rooh-cosmetics.com",
+      "permissions": [
+        "complaints_manage",
+        "reviews_manage",
+        "ai_manage",
+        "crm_read"
+      ],
+      "status": "Active"
+    }
+  ],
+  "website_sections": [
+    {
+      "id": "hero_banner",
+      "type": "hero",
+      "title_ar": "فخامة الطبيعة.. وإشراقة تدوم في روحك",
+      "title_en": "Luxury of Nature.. Radiance within your ROOH",
+      "subtitle_ar": "مستحضرات تجميل ملكية طبيعية مصممة بعناية فائقة",
+      "subtitle_en": "Royal Natural Cosmetics Crafted with Absolute Care",
+      "cta_text_ar": "تسوقي في سوق روح",
+      "cta_link": "#store",
+      "secondary_cta_ar": "ابتكري منتجك الخاص",
+      "secondary_link": "#customizer",
+      "bg_color": "#FAF6EE",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "trust_features",
+      "type": "features",
+      "title_ar": "لماذا تختارين روح؟",
+      "items": [
+        {
+          "title_ar": "مكونات طبيعية نقية 100%",
+          "desc_ar": "مستخلصات نباتية وزيوت عضوية معتمدة معملياً",
+          "icon": "🌿"
+        },
+        {
+          "title_ar": "صنع خصيصاً لكِ",
+          "desc_ar": "إمكانية تخصيص وتركيب المستحضرات حسب احتياج بشرتك",
+          "icon": "🔬"
+        },
+        {
+          "title_ar": "شحن سريع لجميع محافظات مصر",
+          "desc_ar": "توصيل خلال 24 - 48 ساعة لباب منزلك",
+          "icon": "🚀"
+        },
+        {
+          "title_ar": "ضمان الجودة الملكية",
+          "desc_ar": "منتجات خالية من البارابين والمواد الكيميائية الضارة",
+          "icon": "👑"
+        }
+      ],
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "about_story",
+      "type": "story",
+      "title_ar": "من نحن - قصة روح",
+      "desc_ar": "انطلقت روح (ROOH) برؤية رائدة أسسها 'عبدالرحمن' لإعادة تعريف مفهوم الجمال الطبيعي الفاخر في مصر والشرق الأوسط. نحن ندمج بين أسرار الطبيعة العذراء وأحدث ما توصلت إليه علوم التركيبات الجلدية لنقدم لكِ مستحضرات تجميل وعناية تمنح بشرتك نضارة استثنائية وثقة تليق بكِ.",
+      "mission_ar": "رسالتنا: تمكين كل امرأة ورجل من الحصول على عناية صحية نقية متطورة مصممة خصيصاً لاحتياجاتهم وبمعايير عالمية.",
+      "vision_ar": "رؤيتنا: أن تكون 'روح' المنظومة التجميلية الأولى في الشرق الأوسط التي تجمع بين التسوق الفاخر والتصنيع المخصص والشفافية التامة.",
+      "order": 3,
+      "active": true
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "LOG-1794234364805",
+      "user": "نورهان الدسوقي",
+      "action": "CREATE_ORDER",
+      "details": "تسجيل طلب شراء جديد #1005 بإجمالي 910 ج.م",
+      "reference_id": "ORD-ROOH-1005",
+      "timestamp": "2026-11-09T14:26:04.805Z"
+    },
+    {
+      "id": "LOG-1794234364797",
+      "user": "إدارة المتجر",
+      "action": "CREATE_PRODUCT",
+      "details": "إضافة منتج جديد: كريم الليل الملكي لتجديد خلايا البشرة (SKU-4795)",
+      "reference_id": "PRD-4795",
+      "timestamp": "2026-11-09T14:26:04.797Z"
+    },
+    {
+      "timestamp": "2026-11-05T00:24:44.434Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: المدير العام (المدير العام)"
+    },
+    {
+      "timestamp": "2026-11-05T00:23:54.474Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: المدير العام (المدير العام)"
+    },
+    {
+      "timestamp": "2026-11-04T22:54:29.974Z",
+      "user": "أحمد محمود",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: أحمد محمود (مساعد إدارة الطلبات والشحن)"
+    },
+    {
+      "timestamp": "2026-11-04T22:54:29.966Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: المدير العام (المدير العام)"
+    },
+    {
+      "timestamp": "2026-11-04T22:53:48.562Z",
+      "user": "أحمد محمود",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: أحمد محمود (مساعد إدارة الطلبات والشحن)"
+    },
+    {
+      "timestamp": "2026-11-04T22:53:48.551Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: المدير العام (المدير العام)"
+    },
+    {
+      "timestamp": "2026-11-04T22:52:51.677Z",
+      "user": "أحمد محمود",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: أحمد محمود (مساعد إدارة الطلبات والشحن)"
+    },
+    {
+      "timestamp": "2026-11-04T22:52:51.654Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح: المدير العام (المدير العام)"
+    },
+    {
+      "timestamp": "2026-11-03T18:33:16.639Z",
+      "user": "كريم المساعد",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح للمستخدم: كريم المساعد (Assistant)"
+    },
+    {
+      "timestamp": "2026-11-03T18:33:16.636Z",
+      "user": "المدير العام",
+      "action": "CREATE_ASSISTANT_USER",
+      "details": "إضافة مستخدم مساعد جديد: كريم المساعد (اسم المستخدم: karim_helper)"
+    },
+    {
+      "timestamp": "2026-11-03T18:33:16.630Z",
+      "user": "المدير العام",
+      "action": "USER_LOGIN",
+      "details": "تسجيل دخول ناجح للمستخدم: المدير العام (Owner)"
+    },
+    {
+      "timestamp": "2026-11-02T19:00:00Z",
+      "user": "عبدالرحمن",
+      "action": "SYSTEM_INITIALIZE",
+      "details": "تم تهيئة قاعدة البيانات المركزية لمنظومة ROOH المتكاملة بنجاح"
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "المدير العام",
+      "username": "admin",
+      "password": "Admin@2026",
+      "role": "Owner",
+      "role_ar": "المدير العام",
+      "phone": "01227208589",
+      "is_master": true,
+      "permissions": [
+        "all"
+      ],
+      "status": "Active",
+      "created_at": "2026-11-03T18:25:20.842Z",
+      "last_login": "2026-11-07T10:22:56.905Z",
+      "avatar": "👑"
+    },
+    {
+      "id": "USR-002",
+      "name": "أحمد محمود",
+      "username": "ahmed_orders",
+      "password": "Ahmed@2026",
+      "role": "Assistant",
+      "role_ar": "مساعد إدارة الطلبات والشحن",
+      "phone": "01011122233",
+      "is_master": false,
+      "permissions": [
+        "orders",
+        "shipping",
+        "inventory"
+      ],
+      "status": "Active",
+      "created_at": "2026-11-03T18:25:20.843Z",
+      "last_login": "2026-11-04T22:54:29.972Z"
+    }
+  ],
+  "governorates": [
+    {
+      "id": "GOV-CAI",
+      "name_ar": "القاهرة",
+      "name_en": "Cairo",
+      "zone": "Zone 1 - Capital",
+      "fee": 45,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-GIZ",
+      "name_ar": "الجيزة",
+      "name_en": "Giza",
+      "zone": "Zone 1 - Capital",
+      "fee": 45,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-QAL",
+      "name_ar": "القليوبية",
+      "name_en": "Qalyubia",
+      "zone": "Zone 1 - Greater Cairo",
+      "fee": 50,
+      "days": "24-48 ساعة"
+    },
+    {
+      "id": "GOV-ALX",
+      "name_ar": "الإسكندرية",
+      "name_en": "Alexandria",
+      "zone": "Zone 2 - Coastal",
+      "fee": 55,
+      "days": "48 ساعة"
+    },
+    {
+      "id": "GOV-BEH",
+      "name_ar": "البحيرة",
+      "name_en": "Beheira",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MAT",
+      "name_ar": "مطروح",
+      "name_en": "Matrouh",
+      "zone": "Zone 4 - Frontier",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-DAM",
+      "name_ar": "دمياط",
+      "name_en": "Damietta",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-DKH",
+      "name_ar": "الدقهلية (المنصورة)",
+      "name_en": "Dakahlia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-KFS",
+      "name_ar": "كفر الشيخ",
+      "name_en": "Kafr El Sheikh",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-GHB",
+      "name_ar": "الغربية (طنطا)",
+      "name_en": "Gharbia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MNF",
+      "name_ar": "المنوفية",
+      "name_en": "Menofia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-SHR",
+      "name_ar": "الشرقية (الزقازيق)",
+      "name_en": "Sharqia",
+      "zone": "Zone 2 - Delta",
+      "fee": 55,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-ISL",
+      "name_ar": "الإسماعيلية",
+      "name_en": "Ismailia",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-PTS",
+      "name_ar": "بورسعيد",
+      "name_en": "Port Said",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-SUZ",
+      "name_ar": "السويس",
+      "name_en": "Suez",
+      "zone": "Zone 3 - Canal",
+      "fee": 65,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-BNS",
+      "name_ar": "بني سويف",
+      "name_en": "Beni Suef",
+      "zone": "Zone 4 - North Upper",
+      "fee": 70,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-FYM",
+      "name_ar": "الفيوم",
+      "name_en": "Fayoum",
+      "zone": "Zone 4 - North Upper",
+      "fee": 70,
+      "days": "2-3 أيام"
+    },
+    {
+      "id": "GOV-MNY",
+      "name_ar": "المنيا",
+      "name_en": "Minya",
+      "zone": "Zone 4 - North Upper",
+      "fee": 75,
+      "days": "2-4 أيام"
+    },
+    {
+      "id": "GOV-ASY",
+      "name_ar": "أسيوط",
+      "name_en": "Asyut",
+      "zone": "Zone 4 - Middle Upper",
+      "fee": 75,
+      "days": "2-4 أيام"
+    },
+    {
+      "id": "GOV-SOH",
+      "name_ar": "سوهاج",
+      "name_en": "Sohag",
+      "zone": "Zone 4 - Middle Upper",
+      "fee": 80,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-QNA",
+      "name_ar": "قنا",
+      "name_en": "Qena",
+      "zone": "Zone 5 - South Upper",
+      "fee": 80,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-LXU",
+      "name_ar": "الأقصر",
+      "name_en": "Luxor",
+      "zone": "Zone 5 - South Upper",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-ASW",
+      "name_ar": "أسوان",
+      "name_en": "Aswan",
+      "zone": "Zone 5 - South Upper",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-RED",
+      "name_ar": "البحر الأحمر (الغردقة)",
+      "name_en": "Red Sea",
+      "zone": "Zone 5 - Coastal Red Sea",
+      "fee": 85,
+      "days": "3-4 أيام"
+    },
+    {
+      "id": "GOV-NVL",
+      "name_ar": "الوادي الجديد",
+      "name_en": "New Valley",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "4-5 أيام"
+    },
+    {
+      "id": "GOV-SIN",
+      "name_ar": "شمال سيناء",
+      "name_en": "North Sinai",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "4-5 أيام"
+    },
+    {
+      "id": "GOV-SIS",
+      "name_ar": "جنوب سيناء (شرم الشيخ)",
+      "name_en": "South Sinai",
+      "zone": "Zone 6 - Frontier",
+      "fee": 95,
+      "days": "3-4 أيام"
+    }
+  ],
+  "discount_codes": [
+    {
+      "id": "COUPON-ROOH10",
+      "code": "ROOH10",
+      "type": "percentage",
+      "value": 10,
+      "min_order_amount": 300,
+      "max_discount_cap": 100,
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "usage_limit_total": 500,
+      "usage_limit_per_customer": 2,
+      "used_count": 0,
+      "active": true,
+      "allowed_categories": [],
+      "excluded_products": []
+    },
+    {
+      "id": "COUPON-WELCOME50",
+      "code": "WELCOME50",
+      "type": "fixed",
+      "value": 50,
+      "min_order_amount": 500,
+      "max_discount_cap": 50,
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "usage_limit_total": 200,
+      "usage_limit_per_customer": 1,
+      "used_count": 0,
+      "active": true,
+      "allowed_categories": [],
+      "excluded_products": []
+    }
+  ],
+  "product_discounts": [],
+  "payment_gateways": {
+    "paymob": {
+      "name_ar": "بوابة باي موب (Paymob)",
+      "status": "Sandbox",
+      "merchant_id": "",
+      "api_key": "",
+      "secret_key": "",
+      "public_key": "",
+      "integration_id_card": "",
+      "integration_id_wallet": "",
+      "hmac_secret": "",
+      "iframe_id": "",
+      "webhook_url": "http://localhost:3000/api/payments/webhook/paymob",
+      "is_live_enabled": false,
+      "last_tested": null,
+      "error_message": ""
+    },
+    "fawry": {
+      "name_ar": "بوابة فوري (FawryPay)",
+      "status": "Sandbox",
+      "merchant_code": "",
+      "security_key": "",
+      "webhook_url": "http://localhost:3000/api/payments/webhook/fawry",
+      "is_live_enabled": false,
+      "last_tested": null,
+      "error_message": ""
+    },
+    "instapay": {
+      "name_ar": "إنستاباي (InstaPay)",
+      "status": "Connected",
+      "account_name": "شركة روح لمستحضرات التجميل - عبدالرحمن",
+      "ipa_handle": "rooh.cosmetics@instapay",
+      "phone_number": "01227208589",
+      "mode": "manual_verification",
+      "is_live_enabled": true,
+      "instructions_ar": "يرجى تحويل المبلغ عبر إنستاباي إلى المعرف (rooh.cosmetics@instapay) أو رقم 01227208589 وإرفاق رقم العملية في خانة مرجع الدفع."
+    },
+    "wallets": {
+      "name_ar": "المحافظ الإلكترونية (فودافون كاش / أورنج / اتصالات / WE)",
+      "status": "Connected",
+      "wallet_number": "01227208589",
+      "account_name": "عبدالرحمن - روح للمستحضرات",
+      "mode": "manual_verification",
+      "is_live_enabled": true,
+      "instructions_ar": "يرجى تحويل المبلغ لمحفظة فودافون كاش على 01227208589 ثم كتابة رقم المحفظة المحول منها كمرجع تأكيد."
+    },
+    "cod": {
+      "name_ar": "الدفع عند الاستلام (COD)",
+      "status": "Connected",
+      "fee": 0,
+      "is_live_enabled": true,
+      "instructions_ar": "الدفع نقداً لمندوب الشحن عند استلام الشحنة ومعاينتها."
+    }
+  },
+  "team_meetings": {
+    "participants": [
+      {
+        "id": "USR-001",
+        "name": "عبدالرحمن",
+        "nickname": "المالك والمدير العام",
+        "avatar": "👑",
+        "status": "online",
+        "is_typing": false,
+        "can_chat": true,
+        "last_seen": "2026-11-04T22:28:59.029Z"
+      },
+      {
+        "id": "USR-002",
+        "name": "أحمد محمود",
+        "nickname": "إدارة الطلبات والشحن",
+        "avatar": "📦",
+        "status": "offline",
+        "is_typing": false,
+        "can_chat": true,
+        "last_seen": "2026-11-04T22:28:59.052Z"
+      }
+    ],
+    "messages": [
+      {
+        "id": "MSG-001",
+        "sender_id": "USR-001",
+        "sender_name": "المدير العام",
+        "text": "مرحباً بفريق عمل روح، هذه غرفة الاجتماعات المركزية لمتابعة حركة المتجر والعمليات اليومية.",
+        "timestamp": "2026-11-04T22:28:59.052Z"
+      }
+    ]
+  },
+  "media_library": [
+    {
+      "id": "IMG-001",
+      "name": "سيروم الورد الملكي",
+      "category": "products",
+      "url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80",
+      "size": "142 KB",
+      "upload_date": "2026-11-01",
+      "used_in": [
+        "ROOH-SK-001",
+        "hero_display"
+      ]
+    },
+    {
+      "id": "IMG-002",
+      "name": "كريم السيراميد والترطيب",
+      "category": "products",
+      "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "size": "185 KB",
+      "upload_date": "2026-11-01",
+      "used_in": [
+        "ROOH-SK-002"
+      ]
+    },
+    {
+      "id": "IMG-003",
+      "name": "معمل ومختبر روح",
+      "category": "site",
+      "url": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=700&q=80",
+      "size": "210 KB",
+      "upload_date": "2026-11-01",
+      "used_in": [
+        "about_section"
+      ]
+    },
+    {
+      "id": "IMG-004",
+      "name": "صورة المالك عبدالرحمن",
+      "category": "profile",
+      "url": "",
+      "size": "0 KB",
+      "upload_date": "2026-11-05",
+      "used_in": [
+        "owner_card",
+        "admin_profile"
+      ]
+    }
+  ],
+  "theme_colors": {
+    "site": {
+      "primary": "#BFA15F",
+      "primary_hover": "#9E7D47",
+      "secondary": "#24211E",
+      "background": "#FAF6EE",
+      "card_bg": "#FFFFFF",
+      "text": "#24211E",
+      "headings": "#24211E",
+      "buttons": "#BFA15F",
+      "buttons_active": "#8C6F3B",
+      "border": "#E8E2D8",
+      "menus": "#FFFFFF",
+      "notifications": "#C62828",
+      "prices": "#BFA15F",
+      "discounts": "#2E7D32"
+    },
+    "store": {
+      "primary": "#BFA15F",
+      "primary_hover": "#9E7D47",
+      "secondary": "#1A1816",
+      "background": "#FAF8F5",
+      "card_bg": "#FFFFFF",
+      "text": "#2C2825",
+      "headings": "#1A1816",
+      "buttons": "#BFA15F",
+      "buttons_active": "#8C6F3B",
+      "border": "#EAE5DD",
+      "menus": "#FFFFFF",
+      "notifications": "#D32F2F",
+      "prices": "#BFA15F",
+      "discounts": "#388E3C"
+    }
+  },
+  "lab_materials": [
+    {
+      "id": "MAT-01",
+      "name_ar": "زيت الأرغان المغربي النقي",
+      "category": "base",
+      "price": 90,
+      "stock": 45,
+      "unit": "100ml",
+      "description_ar": "معصور على البارد، مغذٍ ومرمم للبشرة والشعر",
+      "available": true,
+      "image": "🌿"
+    },
+    {
+      "id": "MAT-02",
+      "name_ar": "جل الصبار العضوي (الألوفيرا)",
+      "category": "base",
+      "price": 60,
+      "stock": 60,
+      "unit": "100ml",
+      "description_ar": "مهدئ ومرطب عميق للبشرة الحساسة",
+      "available": true,
+      "image": "🌵"
+    },
+    {
+      "id": "MAT-03",
+      "name_ar": "فيتامين C المركز 15%",
+      "category": "active",
+      "price": 80,
+      "stock": 35,
+      "unit": "30ml",
+      "description_ar": "مضاد أكسدة فائق يعزز النضارة ويفتح التصبغات",
+      "available": true,
+      "image": "🍊"
+    },
+    {
+      "id": "MAT-04",
+      "name_ar": "حمض الهيالورونيك النقي 2%",
+      "category": "active",
+      "price": 75,
+      "stock": 40,
+      "unit": "30ml",
+      "description_ar": "يحبس الرطوبة 1000 ضعف وزنه الجزيئي",
+      "available": true,
+      "image": "💧"
+    },
+    {
+      "id": "MAT-05",
+      "name_ar": "نياسيناميد 10% + زنك",
+      "category": "active",
+      "price": 70,
+      "stock": 30,
+      "unit": "30ml",
+      "description_ar": "لتضييق المسام وتنظيم إفراز الدهون",
+      "available": true,
+      "image": "🧪"
+    },
+    {
+      "id": "MAT-06",
+      "name_ar": "الكولاجين البحري الطبيعي",
+      "category": "active",
+      "price": 85,
+      "stock": 25,
+      "unit": "30ml",
+      "description_ar": "يشد البشرة ويقلل علامات تقدم السن",
+      "available": true,
+      "image": "✨"
+    },
+    {
+      "id": "MAT-07",
+      "name_ar": "خلاصة الورد الطائفي الملكي",
+      "category": "fragrance",
+      "price": 65,
+      "stock": 20,
+      "unit": "15ml",
+      "description_ar": "عطر زهري ملكي فاخر وثابت",
+      "available": true,
+      "image": "🌹"
+    },
+    {
+      "id": "MAT-08",
+      "name_ar": "عبير المسك الأبيض البودري",
+      "category": "fragrance",
+      "price": 60,
+      "stock": 28,
+      "unit": "15ml",
+      "description_ar": "رائحة نظافة ونعومة هادئة ومحبوبة",
+      "available": true,
+      "image": "🕊️"
+    }
+  ],
+  "lab_packaging": [
+    {
+      "id": "PKG-01",
+      "name_ar": "زجاجة دروبر بلورية قطارة (Dropper)",
+      "type": "dropper",
+      "shape": "cylinder",
+      "volume": "30ml",
+      "color": "#1A1816",
+      "cap_color": "#BFA15F",
+      "price": 40,
+      "stock": 120,
+      "image": "🧴"
+    },
+    {
+      "id": "PKG-02",
+      "name_ar": "زجاجة مضخة فاخرة مفرغة (Airless Pump)",
+      "type": "pump",
+      "shape": "rounded",
+      "volume": "50ml",
+      "color": "#FAF6EE",
+      "cap_color": "#BFA15F",
+      "price": 50,
+      "stock": 95,
+      "image": "🧴"
+    },
+    {
+      "id": "PKG-03",
+      "name_ar": "برطمان زجاجي مزدوج الجدار (Cream Jar)",
+      "type": "jar",
+      "shape": "wide_jar",
+      "volume": "50ml",
+      "color": "#E8E2D8",
+      "cap_color": "#24211E",
+      "price": 45,
+      "stock": 80,
+      "image": "🫙"
+    },
+    {
+      "id": "PKG-04",
+      "name_ar": "زجاجة عطر كريستالية مع بخاخ ذهبي (Mist Spray)",
+      "type": "spray",
+      "shape": "tall_crystal",
+      "volume": "100ml",
+      "color": "#D4BA7D",
+      "cap_color": "#BFA15F",
+      "price": 65,
+      "stock": 50,
+      "image": "✨"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-ORD-1794234364805",
+      "title": "🛍️ طلب شراء جديد #1005",
+      "message": "قام العميل (نورهان الدسوقي - الإسكندرية) بطلب بقيمة 910 ج.م عبر InstaPay.",
+      "type": "order",
+      "reference_id": "ORD-ROOH-1005",
+      "created_at": "2026-11-09T14:26:04.805Z",
+      "read": false
+    },
+    {
+      "id": "NOTIF-884142",
+      "title": "طلب جديد #1004",
+      "description": "قام العميل (نور الهدى) بطلب 1 منتجات بقيمة 760 ج.م في الإسكندرية",
+      "type": "order",
+      "severity": "info",
+      "timestamp": "2026-11-04T22:54:44.142Z",
+      "read": false,
+      "link": "#orders"
+    },
+    {
+      "id": "NOTIF-001",
+      "title": "مرحباً بك في منظومة روح المتطورة",
+      "description": "تم تحديث نظام روح المتكامل بنجاح وربط كافة أقسام الموقع والمتجر والخزنة.",
+      "type": "system",
+      "severity": "info",
+      "timestamp": "2026-11-04T22:28:59.052Z",
+      "read": false,
+      "link": "#overview"
+    }
+  ],
+  "security_system": {
+    "status": "warning",
+    "last_scan": "2026-11-05T00:33:26.605Z",
+    "failed_login_attempts": {},
+    "detected_issues": [
+      {
+        "id": "SEC-01",
+        "title": "كلمة المرور الافتراضية غير مشفرة بـ Salt",
+        "severity": "medium",
+        "location": "users.master_account",
+        "description": "كلمة مرور المدير الأساسي تستخدم التهيئة الافتراضية، يوصى بالترقية للتشفير التلقائي."
+      }
+    ],
+    "firewall_status": "Active",
+    "https_enforced": true,
+    "sql_injection_defense": "Active (Parameterized/Sanitized Storage)",
+    "csrf_protection": "Active",
+    "xss_sanitization": "Active",
+    "api_rate_limit": "Active (100 req/min)",
+    "file_upload_scanner": "Active (MIME & size whitelist)"
+  },
+  "customer_users": [
+    {
+      "id": "CUST-71705",
+      "name": "هالة محمود",
+      "phone": "01032771703",
+      "email": "hala_1793832771703@gmail.com",
+      "password": "testpassword",
+      "governorate": "الإسكندرية",
+      "address": "سموحة، شارع فوزي معاذ",
+      "tier": "Regular",
+      "total_orders": 0,
+      "total_spent": 0,
+      "created_at": "2026-11-04T22:52:51.705Z"
+    },
+    {
+      "id": "CUST-28582",
+      "name": "هالة محمود",
+      "phone": "01032828580",
+      "email": "hala_1793832828580@gmail.com",
+      "password": "testpassword",
+      "governorate": "الإسكندرية",
+      "address": "سموحة، شارع فوزي معاذ",
+      "tier": "Regular",
+      "total_orders": 0,
+      "total_spent": 0,
+      "created_at": "2026-11-04T22:53:48.582Z"
+    },
+    {
+      "id": "CUST-69989",
+      "name": "هالة محمود",
+      "phone": "01032869987",
+      "email": "hala_1793832869987@gmail.com",
+      "password": "testpassword",
+      "governorate": "الإسكندرية",
+      "address": "سموحة، شارع فوزي معاذ",
+      "tier": "Regular",
+      "total_orders": 0,
+      "total_spent": 0,
+      "created_at": "2026-11-04T22:54:29.989Z"
+    }
+  ],
+  "customer_designs": [],
+  "roles": [
+    {
+      "id": "ROLE-OWNER",
+      "name": "Owner & General Manager",
+      "name_ar": "المالك والمدير العام",
+      "permissions": [
+        "all"
+      ],
+      "description": "صلاحيات كاملة وغير مقيدة على كافة أقسام المنظومة"
+    },
+    {
+      "id": "ROLE-STORE-MGR",
+      "name": "Store Manager",
+      "name_ar": "مدير المتجر والمنتجات",
+      "permissions": [
+        "products",
+        "orders",
+        "categories",
+        "reviews",
+        "discounts"
+      ],
+      "description": "إدارة كتالوج المنتجات والأقسام والطلبات والتخفيضات"
+    },
+    {
+      "id": "ROLE-INVENTORY-MGR",
+      "name": "Warehouse & Inventory Manager",
+      "name_ar": "مدير المستودعات والمخزون",
+      "permissions": [
+        "inventory",
+        "suppliers",
+        "purchases",
+        "warehouses"
+      ],
+      "description": "إدارة المخازن، حركات التوريد، والجرد الدوري"
+    },
+    {
+      "id": "ROLE-ACCOUNTANT",
+      "name": "Chief Accountant",
+      "name_ar": "المحاسب المالي الرئيسي",
+      "permissions": [
+        "vault",
+        "accounting",
+        "expenses",
+        "salaries",
+        "reports"
+      ],
+      "description": "إدارة الخزنة، قيود اليومية، الرواتب، والتقارير المالية"
+    },
+    {
+      "id": "ROLE-DELIVERY-AGENT",
+      "name": "Delivery Logistics Officer",
+      "name_ar": "مسؤول الشحن واللوجستيات",
+      "permissions": [
+        "shipping",
+        "delivery",
+        "orders_view"
+      ],
+      "description": "توزيع وتوصيل الشحنات للمحافظات وتحديث الحالات"
+    },
+    {
+      "id": "ROLE-CUSTOMER-SUPPORT",
+      "name": "Customer Care Representative",
+      "name_ar": "خدمة العملاء والدعم الفني",
+      "permissions": [
+        "customers",
+        "complaints",
+        "reviews",
+        "orders_view"
+      ],
+      "description": "الرد على استفسارات وشكاوى العملاء ومتابعة الطلبات"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "perm_products",
+      "name_ar": "إدارة المنتجات والأسعار",
+      "module": "catalog"
+    },
+    {
+      "id": "perm_ai_studio",
+      "name_ar": "استوديو الذكاء الاصطناعي وتوليد الصور",
+      "module": "ai"
+    },
+    {
+      "id": "perm_orders",
+      "name_ar": "إدارة وتجهيز الطلبات",
+      "module": "sales"
+    },
+    {
+      "id": "perm_vault",
+      "name_ar": "إدارة الخزنة والتدفق النقدي",
+      "module": "finance"
+    },
+    {
+      "id": "perm_accounting",
+      "name_ar": "شجرة الحسابات والقيود المحاسبية",
+      "module": "finance"
+    },
+    {
+      "id": "perm_inventory",
+      "name_ar": "مراقبة المخزون وتوريدات المستودعات",
+      "module": "inventory"
+    },
+    {
+      "id": "perm_shipping",
+      "name_ar": "إدارة الشحن والمحافظات",
+      "module": "shipping"
+    },
+    {
+      "id": "perm_customers",
+      "name_ar": "إدارة بيانات العملاء والتواصل",
+      "module": "crm"
+    },
+    {
+      "id": "perm_website_builder",
+      "name_ar": "محرر تصميم وهوية المتجر",
+      "module": "cms"
+    },
+    {
+      "id": "perm_settings",
+      "name_ar": "إعدادات النظام والربط التقني",
+      "module": "system"
+    }
+  ],
+  "branches": [
+    {
+      "id": "BRN-001",
+      "name_ar": "فرع ومقر الإدارة الرئيسي - القاهرة",
+      "name_en": "Cairo Headquarters & Flagship Boutique",
+      "city": "القاهرة",
+      "address": "التجمع الخامس، شارع التسعين الشمالي، مجمع روح للأعمال",
+      "phone": "01227208589",
+      "manager_name": "عبدالرحمن",
+      "is_active": true
+    },
+    {
+      "id": "BRN-002",
+      "name_ar": "نقطة توزيع الإسكندرية والساحل",
+      "name_en": "Alexandria Logistics Hub",
+      "city": "الإسكندرية",
+      "address": "سموحة، طريق 14 مايو، الإسكندرية",
+      "phone": "01227208589",
+      "manager_name": "أحمد محمود",
+      "is_active": true
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "WH-001",
+      "name_ar": "المستودع المركزي الرئيسي (القاهرة)",
+      "code": "WH-CAIRO-MAIN",
+      "location": "المنطقة الصناعية، التجمع الخامس، القاهرة",
+      "capacity_units": 50000,
+      "current_units": 3200,
+      "is_default": true,
+      "manager": "سارة إبراهيم"
+    },
+    {
+      "id": "WH-002",
+      "name_ar": "مستودع الوجه البحري (الإسكندرية)",
+      "code": "WH-ALEX-DIST",
+      "location": "برج العرب، المنطقة اللوجستية، الإسكندرية",
+      "capacity_units": 20000,
+      "current_units": 1450,
+      "is_default": false,
+      "manager": "محمود رفعت"
+    }
+  ],
+  "product_variants": [
+    {
+      "id": "VAR-ROOH-SK-001-1",
+      "product_id": "ROOH-SK-001",
+      "sku": "ROOH-GLOW-30ML-30ml",
+      "variant_name_ar": "عبوة حجم 30ml",
+      "variant_name_en": "Size 30ml",
+      "size": "30ml",
+      "price": 380,
+      "cost_price": 115,
+      "stock": 42,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-SK-001-2",
+      "product_id": "ROOH-SK-001",
+      "sku": "ROOH-GLOW-30ML-50ml",
+      "variant_name_ar": "عبوة حجم 50ml",
+      "variant_name_en": "Size 50ml",
+      "size": "50ml",
+      "price": 608,
+      "cost_price": 195,
+      "stock": 42,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-SK-002-1",
+      "product_id": "ROOH-SK-002",
+      "sku": "ROOH-MOIST-50ML-50ml",
+      "variant_name_ar": "عبوة حجم 50ml",
+      "variant_name_en": "Size 50ml",
+      "size": "50ml",
+      "price": 320,
+      "cost_price": 95,
+      "stock": 55,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-SK-002-2",
+      "product_id": "ROOH-SK-002",
+      "sku": "ROOH-MOIST-50ML-100ml",
+      "variant_name_ar": "عبوة حجم 100ml",
+      "variant_name_en": "Size 100ml",
+      "size": "100ml",
+      "price": 512,
+      "cost_price": 162,
+      "stock": 55,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-HR-001-1",
+      "product_id": "ROOH-HR-001",
+      "sku": "ROOH-HAIR-100ML-100ml",
+      "variant_name_ar": "عبوة حجم 100ml",
+      "variant_name_en": "Size 100ml",
+      "size": "100ml",
+      "price": 290,
+      "cost_price": 80,
+      "stock": 70,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-BC-001-1",
+      "product_id": "ROOH-BC-001",
+      "sku": "ROOH-BODY-200G-200g",
+      "variant_name_ar": "عبوة حجم 200g",
+      "variant_name_en": "Size 200g",
+      "size": "200g",
+      "price": 260,
+      "cost_price": 72,
+      "stock": 95,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-PF-001-1",
+      "product_id": "ROOH-PF-001",
+      "sku": "ROOH-PERF-100ML-100ml",
+      "variant_name_ar": "عبوة حجم 100ml",
+      "variant_name_en": "Size 100ml",
+      "size": "100ml",
+      "price": 850,
+      "cost_price": 240,
+      "stock": 45,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-MK-001-1",
+      "product_id": "ROOH-MK-001",
+      "sku": "ROOH-TINT-15ML-15ml",
+      "variant_name_ar": "عبوة حجم 15ml",
+      "variant_name_en": "Size 15ml",
+      "size": "15ml",
+      "price": 175,
+      "cost_price": 42,
+      "stock": 140,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-MN-001-1",
+      "product_id": "ROOH-MN-001",
+      "sku": "ROOH-BEARD-50ML-50ml",
+      "variant_name_ar": "عبوة حجم 50ml",
+      "variant_name_en": "Size 50ml",
+      "size": "50ml",
+      "price": 240,
+      "cost_price": 65,
+      "stock": 60,
+      "is_active": true
+    },
+    {
+      "id": "VAR-ROOH-HY-001-1",
+      "product_id": "ROOH-HY-001",
+      "sku": "ROOH-DEO-60G-60g",
+      "variant_name_ar": "عبوة حجم 60g",
+      "variant_name_en": "Size 60g",
+      "size": "60g",
+      "price": 160,
+      "cost_price": 38,
+      "stock": 130,
+      "is_active": true
+    },
+    {
+      "id": "VAR-PRD-4795-1",
+      "product_id": "PRD-4795",
+      "sku": "SKU-4795-50ml",
+      "variant_name_ar": "عبوة 50ml",
+      "size": "50ml",
+      "price": 480,
+      "cost_price": 160,
+      "stock": 75,
+      "is_active": true
+    }
+  ],
+  "product_images": [
+    {
+      "id": "IMG-PRD-4795-4796",
+      "product_id": "PRD-4795",
+      "url": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg",
+      "thumbnail_url": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg",
+      "is_main": true,
+      "is_ai_generated": true,
+      "packaging_type": "frosted_luxury_jar",
+      "generation_prompt": "Ultra-luxury commercial product photography of \"Royal Night Cellular Renewal Cream\" (كريم الليل الملكي لتجديد خلايا البشرة), a premium العناية بالبشرة product by ROOH Luxury Cosmetics. Packaging: Bespoke frosted luxury jar (50ml). Aesthetics: ROOH brand visual identity with royal olive green (#2D3B2D), sage details (#8A9A86), and champagne gold leaf (#C5A880) accents. Environment & Pedestal: Placed on a minimalist circular warm cream ivory podium with soft diffused shadows and subtle natural reflections. Lighting: Professional softbox golden rim with gentle caustics, crisp glass reflections, and clean studio contrast. Composition: Centered hero product shot, 1:1 aspect ratio, editorial luxury cosmetics catalog standard, sharp focus, 8k resolution, elegant minimalism.",
+      "alt_ar": "كريم الليل الملكي لتجديد خلايا البشرة",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:26:04.796Z"
+    },
+    {
+      "id": "IMG-PRD-4783-4785",
+      "product_id": "PRD-4783",
+      "url": "assets/img/generated/rooh_ai_prd_4783_1794234364783.svg",
+      "thumbnail_url": "assets/img/generated/rooh_ai_prd_4783_1794234364783.svg",
+      "is_main": true,
+      "is_ai_generated": true,
+      "packaging_type": "heavy_crystal_flacon",
+      "generation_prompt": "Ultra-luxury commercial product photography of \"Royal Velvet Musk Perfume\" (عطر نفحات المسك الملكي المخملي), a premium العطور والروائح product by ROOH Luxury Cosmetics. Packaging: Bespoke heavy crystal flacon (100ml), infused with scent of المسك الأبيض، العنبر، وأزهار البرتقال. Aesthetics: ROOH brand visual identity with royal olive green (#2D3B2D), sage details (#8A9A86), and champagne gold leaf (#C5A880) accents. Environment & Pedestal: Placed on a minimalist circular warm cream ivory podium with soft diffused shadows and subtle natural reflections. Lighting: Professional softbox golden rim with gentle caustics, crisp glass reflections, and clean studio contrast. Composition: Centered hero product shot, 1:1 aspect ratio, editorial luxury cosmetics catalog standard, sharp focus, 8k resolution, elegant minimalism.",
+      "alt_ar": "عطر نفحات المسك الملكي المخملي",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:26:04.785Z"
+    },
+    {
+      "id": "IMG-ROOH-SK-001-01",
+      "product_id": "ROOH-SK-001",
+      "url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "amber_dropper_bottle",
+      "alt_ar": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-SK-002-01",
+      "product_id": "ROOH-SK-002",
+      "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "frosted_luxury_jar",
+      "alt_ar": "كريم الترطيب العميق بالسيراميد وحمض الهيالورونيك",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-HR-001-01",
+      "product_id": "ROOH-HR-001",
+      "url": "https://images.unsplash.com/photo-1608248597359-59749fb811a2?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1608248597359-59749fb811a2?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "emerald_glass_bottle",
+      "alt_ar": "إكسير الأرجان وزيت الروزماري لإطالة وكثافة الشعر",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-BC-001-01",
+      "product_id": "ROOH-BC-001",
+      "url": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "frosted_luxury_jar",
+      "alt_ar": "زبدة الجسم المخملية بالفانيليا وزبدة المورومورو",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-PF-001-01",
+      "product_id": "ROOH-PF-001",
+      "url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "heavy_crystal_flacon",
+      "alt_ar": "عطر 'روح العنبر الملكي' - أو دو بارفان نيش 100 مل",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-MK-001-01",
+      "product_id": "ROOH-MK-001",
+      "url": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "sleek_applicator_tube",
+      "alt_ar": "تنت الشفاه والخدود الطبيعي بالرمان والشمندر",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-MN-001-01",
+      "product_id": "ROOH-MN-001",
+      "url": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "matte_black_dropper",
+      "alt_ar": "زيت اللحية الفاخر بخشب الأرز ونجيل الهند",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "IMG-ROOH-HY-001-01",
+      "product_id": "ROOH-HY-001",
+      "url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80",
+      "is_main": true,
+      "is_ai_generated": false,
+      "packaging_type": "frosted_luxury_jar",
+      "alt_ar": "مزيل العرق الكريمي الطبيعي بالزنك والشاي الأبيض",
+      "sort_order": 1,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    }
+  ],
+  "ai_image_generation_jobs": [
+    {
+      "id": "JOB-AI-1794234364795",
+      "product_id": "PRD-4795",
+      "product_name": "كريم الليل الملكي لتجديد خلايا البشرة",
+      "status": "completed",
+      "provider": "studio_generator",
+      "prompt": "Ultra-luxury commercial product photography of \"Royal Night Cellular Renewal Cream\" (كريم الليل الملكي لتجديد خلايا البشرة), a premium العناية بالبشرة product by ROOH Luxury Cosmetics. Packaging: Bespoke frosted luxury jar (50ml). Aesthetics: ROOH brand visual identity with royal olive green (#2D3B2D), sage details (#8A9A86), and champagne gold leaf (#C5A880) accents. Environment & Pedestal: Placed on a minimalist circular warm cream ivory podium with soft diffused shadows and subtle natural reflections. Lighting: Professional softbox golden rim with gentle caustics, crisp glass reflections, and clean studio contrast. Composition: Centered hero product shot, 1:1 aspect ratio, editorial luxury cosmetics catalog standard, sharp focus, 8k resolution, elegant minimalism.",
+      "parameters": {
+        "product_name_ar": "كريم الليل الملكي لتجديد خلايا البشرة",
+        "product_name_en": "Royal Night Cellular Renewal Cream",
+        "category": "العناية بالبشرة",
+        "product_type": "face_cream",
+        "packaging_type": "frosted_luxury_jar",
+        "photography_style": "luxury_commercial",
+        "background_style": "warm_cream_ivory",
+        "lighting_style": "softbox_golden_rim",
+        "aspect_ratio": "1:1",
+        "brand_colors": [
+          "#2D3B2D",
+          "#C5A880",
+          "#FBF9F5",
+          "#8A9A86"
+        ]
+      },
+      "result_url": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg",
+      "aspect_ratio": "1:1",
+      "created_at": "2026-11-09T14:26:04.796Z",
+      "completed_at": "2026-11-09T14:26:04.796Z"
+    },
+    {
+      "id": "JOB-AI-1794234364783",
+      "product_id": "PRD-4783",
+      "product_name": "عطر نفحات المسك الملكي المخملي",
+      "status": "completed",
+      "provider": "studio_generator",
+      "prompt": "Ultra-luxury commercial product photography of \"Royal Velvet Musk Perfume\" (عطر نفحات المسك الملكي المخملي), a premium العطور والروائح product by ROOH Luxury Cosmetics. Packaging: Bespoke heavy crystal flacon (100ml), infused with scent of المسك الأبيض، العنبر، وأزهار البرتقال. Aesthetics: ROOH brand visual identity with royal olive green (#2D3B2D), sage details (#8A9A86), and champagne gold leaf (#C5A880) accents. Environment & Pedestal: Placed on a minimalist circular warm cream ivory podium with soft diffused shadows and subtle natural reflections. Lighting: Professional softbox golden rim with gentle caustics, crisp glass reflections, and clean studio contrast. Composition: Centered hero product shot, 1:1 aspect ratio, editorial luxury cosmetics catalog standard, sharp focus, 8k resolution, elegant minimalism.",
+      "parameters": {
+        "product_name_ar": "عطر نفحات المسك الملكي المخملي",
+        "product_name_en": "Royal Velvet Musk Perfume",
+        "category": "العطور والروائح",
+        "product_type": "perfume",
+        "packaging_type": "heavy_crystal_flacon",
+        "photography_style": "luxury_commercial",
+        "background_style": "warm_cream_ivory",
+        "lighting_style": "softbox_golden_rim",
+        "aspect_ratio": "1:1",
+        "brand_colors": [
+          "#2D3B2D",
+          "#C5A880",
+          "#FBF9F5",
+          "#8A9A86"
+        ]
+      },
+      "result_url": "assets/img/generated/rooh_ai_prd_4783_1794234364783.svg",
+      "aspect_ratio": "1:1",
+      "created_at": "2026-11-09T14:26:04.784Z",
+      "completed_at": "2026-11-09T14:26:04.785Z"
+    },
+    {
+      "id": "JOB-AI-DEMO-01",
+      "product_id": "ROOH-SK-001",
+      "product_name": "سيروم النضارة الملكي بالفيتامين C والورد الجوري",
+      "status": "completed",
+      "provider": "studio_generator",
+      "prompt": "Luxury ROOH amber glass dropper bottle cosmetic photography, warm ivory background, golden foil accents",
+      "result_url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "aspect_ratio": "1:1",
+      "created_at": "2026-11-09T13:02:17.130Z",
+      "completed_at": "2026-11-09T13:02:27.130Z"
+    }
+  ],
+  "media_assets": [
+    {
+      "id": "MED-AI-4796",
+      "name_ar": "صورة ذكاء اصطناعي لمنتج: كريم الليل الملكي لتجديد خلايا البشرة",
+      "file_name": "rooh_ai_prd_4795_1794234364795.svg",
+      "file_url": "assets/img/generated/rooh_ai_prd_4795_1794234364795.svg",
+      "mime_type": "image/svg+xml",
+      "size_kb": 7,
+      "category": "products_ai",
+      "product_id": "PRD-4795",
+      "is_persistent": true,
+      "created_at": "2026-11-09T14:26:04.796Z"
+    },
+    {
+      "id": "MED-AI-4785",
+      "name_ar": "صورة ذكاء اصطناعي لمنتج: عطر نفحات المسك الملكي المخملي",
+      "file_name": "rooh_ai_prd_4783_1794234364783.svg",
+      "file_url": "assets/img/generated/rooh_ai_prd_4783_1794234364783.svg",
+      "mime_type": "image/svg+xml",
+      "size_kb": 7,
+      "category": "products_ai",
+      "product_id": "PRD-4783",
+      "is_persistent": true,
+      "created_at": "2026-11-09T14:26:04.785Z"
+    },
+    {
+      "id": "MED-001",
+      "name_ar": "صورة الشعار الملكي لشركة روح",
+      "file_name": "rooh_emblem.svg",
+      "file_url": "assets/img/rooh-logo.svg",
+      "mime_type": "image/svg+xml",
+      "size_kb": 14,
+      "category": "branding",
+      "is_persistent": true,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "MED-002",
+      "name_ar": "بنر العناية الملكية بالبشرة",
+      "file_name": "hero_cosmetics.webp",
+      "file_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1400&q=80",
+      "mime_type": "image/webp",
+      "size_kb": 180,
+      "category": "banners",
+      "is_persistent": true,
+      "created_at": "2026-11-09T14:02:17.130Z"
+    }
+  ],
+  "ai_settings": {
+    "active_provider": "studio_generator",
+    "automatic_generation_on_new_product": true,
+    "require_owner_approval_for_paid_api": true,
+    "gemini_api_key": "",
+    "openai_api_key": "",
+    "huggingface_api_key": "",
+    "monthly_budget_usd": 50,
+    "monthly_used_usd": 0,
+    "generation_count_total": 14,
+    "presets": {
+      "photography_style": "luxury_commercial",
+      "background_style": "warm_cream_ivory",
+      "lighting_style": "softbox_golden_rim",
+      "aspect_ratio": "1:1",
+      "brand_color_primary": "#2D3B2D",
+      "brand_color_accent": "#C5A880",
+      "brand_color_background": "#FBF9F5"
+    },
+    "category_presets": {
+      "skincare": {
+        "packaging": "amber_dropper_bottle",
+        "lighting": "dewy_caustics"
+      },
+      "haircare": {
+        "packaging": "emerald_glass_bottle",
+        "lighting": "golden_botanical"
+      },
+      "bodycare": {
+        "packaging": "frosted_luxury_jar",
+        "lighting": "velvet_soft"
+      },
+      "perfumes": {
+        "packaging": "heavy_crystal_flacon",
+        "lighting": "faceted_sparkle"
+      },
+      "makeup": {
+        "packaging": "sleek_applicator_tube",
+        "lighting": "clean_high_key"
+      },
+      "menscare": {
+        "packaging": "matte_black_dropper",
+        "lighting": "contrast_studio"
+      }
+    }
+  },
+  "payment_settings": {
+    "instapay": {
+      "enabled": true,
+      "address": "rooh@instapay",
+      "phone": "01227208589",
+      "receiver_name": "عبدالرحمن - شركة روح لمستحضرات التجميل",
+      "instructions_ar": "يتم التحويل عبر تطبيق إنستاباي لعنوان الدفع rooh@instapay أو الرقم 01227208589 وكتابة رقم الهاتف في خانة البيان."
+    },
+    "vodafone_cash": {
+      "enabled": true,
+      "wallet_numbers": [
+        "01227208589"
+      ],
+      "receiver_name": "إدارة متجر روح",
+      "supported_wallets": [
+        "فودافون كاش",
+        "أورنج كاش",
+        "اتصالات كاش",
+        "WE Pay"
+      ],
+      "instructions_ar": "التحويل لمحفظة فودافون كاش على رقم 01227208589 وتأكيد المعاملة برقم الإشعار."
+    },
+    "bank_card": {
+      "enabled": true,
+      "supported_cards": [
+        "Visa",
+        "Mastercard",
+        "Meeza (ميزة)"
+      ],
+      "sandbox_mode": false,
+      "instructions_ar": "دفع مشفر وآمن بالبطاقات الائتمانية وبطاقات ميزة الوطنية."
+    },
+    "cash_on_delivery": {
+      "enabled": true,
+      "extra_fee": 0,
+      "instructions_ar": "الدفع عند الاستلام نقداً لمندوب الشحن بعد معاينة سلامة الشحنة."
+    }
+  },
+  "shipping_settings": {
+    "free_shipping_threshold": 750,
+    "cairo_giza_base_fee": 45,
+    "alexandria_delta_base_fee": 55,
+    "canal_zones_base_fee": 65,
+    "upper_egypt_base_fee": 75,
+    "frontier_zones_base_fee": 95,
+    "delivery_company": "أسطول شحن روح الداخلي + إكسبريس مصر",
+    "estimated_delivery_cairo_hours": "24 إلى 48 ساعة",
+    "estimated_delivery_provinces_days": "2 إلى 3 أيام عمل"
+  },
+  "delivery_agents": [
+    {
+      "id": "DEL-AGT-01",
+      "name": "محمود رفعت",
+      "phone": "01012345678",
+      "vehicle_type": "سيارة فان مبردة للجماليات",
+      "assigned_zones": [
+        "القاهرة",
+        "الجيزة"
+      ],
+      "active_deliveries": 2,
+      "is_available": true
+    },
+    {
+      "id": "DEL-AGT-02",
+      "name": "كريم الدسوقي",
+      "phone": "01123456789",
+      "vehicle_type": "دراجة نارية إكسبريس",
+      "assigned_zones": [
+        "الإسكندرية",
+        "البحيرة"
+      ],
+      "active_deliveries": 1,
+      "is_available": true
+    }
+  ],
+  "delivery_orders": [],
+  "payments": [
+    {
+      "id": "PAY-1794234364805",
+      "order_id": "ORD-ROOH-1005",
+      "order_number": "1005",
+      "customer_name": "نورهان الدسوقي",
+      "amount": 910,
+      "method": "InstaPay",
+      "status": "Paid",
+      "reference": "INSTA-TXN-98412",
+      "date": "2026-11-09T14:26:04.805Z"
+    }
+  ],
+  "refunds": [],
+  "salary_records": [
+    {
+      "id": "SAL-2026-11-01",
+      "employee_id": "EMP-001",
+      "employee_name": "أحمد محمود",
+      "month": "2026-11",
+      "base_salary": 8500,
+      "bonuses": 1200,
+      "deductions": 0,
+      "net_salary": 9700,
+      "status": "Paid",
+      "payment_date": "2026-11-01"
+    },
+    {
+      "id": "SAL-2026-11-02",
+      "employee_id": "EMP-002",
+      "employee_name": "سارة إبراهيم",
+      "month": "2026-11",
+      "base_salary": 7500,
+      "bonuses": 800,
+      "deductions": 0,
+      "net_salary": 8300,
+      "status": "Paid",
+      "payment_date": "2026-11-01"
+    }
+  ],
+  "commissions": [],
+  "salary_payments": [],
+  "approval_requests": [
+    {
+      "id": "APV-001",
+      "requester_id": "USR-002",
+      "requester_name": "أحمد محمود",
+      "type": "purchase_order",
+      "title": "طلب شراء عبوات زجاجية معتمة 50 مل من مصنع البلور الملكي",
+      "amount": 15400,
+      "status": "Approved",
+      "approved_by": "المدير العام",
+      "created_at": "2026-11-08T14:02:17.130Z"
+    }
+  ],
+  "approval_actions": [],
+  "conversations": [],
+  "messages": [],
+  "website_pages": [
+    {
+      "id": "page_home",
+      "slug": "/",
+      "title_ar": "الرئيسية - متجر روح الملكي",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_store",
+      "slug": "/store",
+      "title_ar": "كتالوج المنتجات الملكية",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_lab",
+      "slug": "/lab",
+      "title_ar": "مختبر ابتكار روح (اصنعي منتجكِ)",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_about",
+      "slug": "/about",
+      "title_ar": "عن روح وفلسفتنا الجمالية",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_track",
+      "slug": "/track",
+      "title_ar": "تتبع حالة الشحنات والطلبات",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    }
+  ],
+  "store_pages": [
+    {
+      "id": "page_home",
+      "slug": "/",
+      "title_ar": "الرئيسية - متجر روح الملكي",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_store",
+      "slug": "/store",
+      "title_ar": "كتالوج المنتجات الملكية",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_lab",
+      "slug": "/lab",
+      "title_ar": "مختبر ابتكار روح (اصنعي منتجكِ)",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_about",
+      "slug": "/about",
+      "title_ar": "عن روح وفلسفتنا الجمالية",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    },
+    {
+      "id": "page_track",
+      "slug": "/track",
+      "title_ar": "تتبع حالة الشحنات والطلبات",
+      "published": true,
+      "updated_at": "2026-11-09T14:02:17.130Z"
+    }
+  ],
+  "content_versions": [
+    {
+      "version": "v2.1.0",
+      "published_by": "المدير العام",
+      "date": "2026-11-09T14:02:17.131Z",
+      "notes": "تفعيل منظومة الذكاء الاصطناعي وتكامل الدفع والشحن"
+    }
+  ],
+  "design_tokens": {
+    "colors": {
+      "primary": "#2D3B2D",
+      "secondary": "#4A5D4E",
+      "accent": "#C5A880",
+      "gold": "#D4AF37",
+      "cream": "#FBF9F5",
+      "background": "#F4EFE6",
+      "text_dark": "#1B241B",
+      "text_muted": "#6E7A6E",
+      "border": "#E3DDD3"
+    },
+    "typography": {
+      "font_serif": "'Cinzel', 'Amiri', 'Playfair Display', serif",
+      "font_sans": "'Plus Jakarta Sans', 'Cairo', sans-serif"
+    },
+    "radii": {
+      "sm": "6px",
+      "md": "10px",
+      "lg": "16px",
+      "pill": "9999px"
+    },
+    "shadows": {
+      "subtle": "0 4px 20px rgba(45,59,45,0.06)",
+      "card": "0 8px 30px rgba(45,59,45,0.1)",
+      "gold_glow": "0 0 25px rgba(197,168,128,0.25)"
+    }
+  },
+  "themes": [
+    {
+      "id": "theme_royal_olive",
+      "name_ar": "الهوية الملكية الكلاسيكية (الزيتوني والذهب الشامبين)",
+      "is_active": true
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": "PO-2026-001",
+      "supplier_id": "SUP-001",
+      "supplier_name": "شركة الأهرام للتغليف والزجاج الدوائي",
+      "date": "2026-10-25",
+      "total_amount": 18000,
+      "paid_amount": 12000,
+      "remaining_amount": 6000,
+      "status": "Received",
+      "items": "500 زجاجة عسلية قطارة + 500 مضخة عاجية + كراتين شحن فاخرة"
+    }
+  ],
+  "vault": {
+    "balance": 910,
+    "transactions": [
+      {
+        "id": "TXN-1794234364805",
+        "date": "2026-11-09T14:26:04.805Z",
+        "type": "inflow",
+        "type_ar": "إيراد مبيعات متجر",
+        "amount": 910,
+        "method": "InstaPay",
+        "reference": "ORD-ROOH-1005",
+        "party": "نورهان الدسوقي",
+        "reason": "تحصيل قيمة طلب جديد رقم #1005",
+        "status": "Confirmed"
+      }
+    ]
+  }
+}

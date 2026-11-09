@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Filter definitions for photorealistic soft lighting -->
+    <filter id="pedestalBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(45,59,45,0.15)"/>
+    </filter>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#E5DCCE"/>
+    </linearGradient>
+    <linearGradient id="pedestalMarble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0EAE1"/>
+      <stop offset="35%" stop-color="#FAF7F2"/>
+      <stop offset="70%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </linearGradient>
+    <linearGradient id="goldRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="50%" stop-color="#F3E1B9"/>
+      <stop offset="100%" stop-color="#99783D"/>
+    </linearGradient>
+    <radialGradient id="softVignette" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#EBE2D4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C5B7A0" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="800" fill="url(#studioBg)"/>
+  <rect width="800" height="800" fill="url(#softVignette)"/>
+
+  <!-- Subtle Botanical Olive Leaves Shadow in Background -->
+  <g opacity="0.07" transform="translate(40, 20)">
+    <path d="M100,50 Q160,20 220,70 Q170,110 100,50 Z" fill="#2D3B2D"/>
+    <path d="M220,70 Q280,30 350,90 Q290,130 220,70 Z" fill="#2D3B2D"/>
+    <path d="M120,120 Q190,90 260,150 Q190,190 120,120 Z" fill="#2D3B2D"/>
+  </g>
+
+  <!-- Luxury Marble Cylinder Pedestal Base -->
+  <g id="marble_podium">
+    <!-- Pedestal Base Under-shadow -->
+    <ellipse cx="400" cy="710" rx="310" ry="42" fill="rgba(27,36,27,0.12)" filter="url(#pedestalBlur)"/>
+    
+    <!-- Pedestal Cylinder Height -->
+    <path d="M120,620 L120,670 C120,715 680,715 680,670 L680,620 Z" fill="url(#pedestalMarble)" stroke="#E0D6C8" stroke-width="1"/>
+    
+    <!-- Pedestal Top Oval Surface -->
+    <ellipse cx="400" cy="620" rx="280" ry="38" fill="#FFFDF9" stroke="url(#goldRimGrad)" stroke-width="1.8"/>
+    <ellipse cx="400" cy="620" rx="270" ry="34" fill="#FAF6EF" opacity="0.7"/>
+  </g>
+
+  <!-- Main Cosmetic Packaging Artwork -->
+  
+        <!-- Luxury Dropper Bottle (Hero Amber/Emerald) -->
+        <g id="dropper_bottle">
+          <!-- Soft Pedestal Shadow -->
+          <ellipse cx="400" cy="635" rx="150" ry="22" fill="rgba(27,36,27,0.18)" filter="url(#pedestalBlur)"/>
+          <ellipse cx="400" cy="630" rx="100" ry="14" fill="rgba(27,36,27,0.25)" filter="url(#pedestalBlur)"/>
+
+          <defs>
+            <!-- Amber Liquid -->
+            <linearGradient id="amberBottleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#542B08" stop-opacity="0.95"/>
+              <stop offset="25%" stop-color="#9E5616" stop-opacity="0.9"/>
+              <stop offset="55%" stop-color="#DA842C" stop-opacity="0.85"/>
+              <stop offset="85%" stop-color="#9E5616" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#3D1E04" stop-opacity="0.98"/>
+            </linearGradient>
+            <!-- Emerald Liquid -->
+            <linearGradient id="emeraldBottleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0F2414" stop-opacity="0.95"/>
+              <stop offset="25%" stop-color="#1B4726" stop-opacity="0.9"/>
+              <stop offset="55%" stop-color="#2D733F" stop-opacity="0.85"/>
+              <stop offset="85%" stop-color="#1B4726" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#0A180E" stop-opacity="0.98"/>
+            </linearGradient>
+            <!-- Gold Dropper Collar -->
+            <linearGradient id="goldCollarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#805F25"/>
+              <stop offset="25%" stop-color="#E8C88B"/>
+              <stop offset="50%" stop-color="#FFF3D6"/>
+              <stop offset="75%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#73521E"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Glass Bottle Body -->
+          <rect x="315" y="320" width="170" height="290" rx="30" fill="url(#amberBottleGrad)" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+          <!-- Curved Shoulder -->
+          <path d="M315,350 C315,290 365,280 375,275 L425,275 C435,280 485,290 485,350 Z" fill="url(#amberBottleGrad)"/>
+
+          <!-- Specular Glass Light Reflections -->
+          <path d="M330,325 L345,325 L345,595 L330,590 Z" fill="#FFFFFF" opacity="0.35"/>
+          <path d="M465,325 L472,325 L472,590 L465,593 Z" fill="#FFFFFF" opacity="0.2"/>
+
+          <!-- Gold Collar Ribbed Ring -->
+          <rect x="365" y="240" width="70" height="38" rx="6" fill="url(#goldCollarGrad)" stroke="#805F25" stroke-width="1"/>
+          <line x1="367" y1="252" x2="433" y2="252" stroke="#664B17" stroke-width="0.8"/>
+          <line x1="367" y1="264" x2="433" y2="264" stroke="#664B17" stroke-width="0.8"/>
+
+          <!-- Rubber Dropper Bulb -->
+          <path d="M375,240 C375,190 385,160 400,160 C415,160 425,190 425,240 Z" fill="#1B241B" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+          <!-- Bulb highlight -->
+          <ellipse cx="395" cy="195" rx="5" ry="25" fill="#FFFFFF" opacity="0.15"/>
+
+          <!-- Pipette Dropper Tip with Golden Suspended Droplet -->
+          <g id="suspended_droplet" transform="translate(140, -10)">
+            <ellipse cx="400" cy="340" rx="8" ry="12" fill="url(#goldCollarGrad)" filter="url(#dropShadow)"/>
+            <circle cx="398" cy="336" r="3" fill="#FFFFFF" opacity="0.8"/>
+          </g>
+
+          <!-- Luxury Label -->
+          <rect x="330" y="375" width="140" height="175" rx="10" fill="#FBF9F5" stroke="url(#goldCollarGrad)" stroke-width="1.5" filter="url(#dropShadow)"/>
+          
+          <!-- ROOH Crown Logo -->
+          <g transform="translate(385, 390)">
+            <path d="M0,15 L7,3 L15,10 L23,3 L30,15 Z" fill="#C5A880"/>
+            <circle cx="15" cy="1" r="2.5" fill="#D4AF37"/>
+          </g>
+
+          <text x="400" y="423" font-family="'Cinzel', serif" font-size="15" fill="#2D3B2D" font-weight="bold" letter-spacing="4" text-anchor="middle">ROOH</text>
+          <text x="400" y="438" font-family="'Cinzel', serif" font-size="7.5" fill="#C5A880" letter-spacing="2" text-anchor="middle">ROYAL ELIXIR</text>
+          <line x1="350" y1="447" x2="450" y2="447" stroke="#C5A880" stroke-width="0.8"/>
+          
+          <text x="400" y="470" font-family="'Cairo', sans-serif" font-size="11" fill="#1B241B" font-weight="bold" text-anchor="middle">سيروم الذهب والكافيا</text>
+          <text x="400" y="488" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#6E7A6E" text-anchor="middle">Royal Gold  Caviar Eli</text>
+          <text x="400" y="515" font-family="'Cairo', sans-serif" font-size="8.5" fill="#4A5D4E" text-anchor="middle">تركيبة ملكية طبيعية 100%</text>
+          <text x="400" y="535" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#2D3B2D" font-weight="bold" text-anchor="middle">50ml</text>
+        </g>
+      
+
+  <!-- Water Droplets / Natural Luxury Dew Details -->
+  <g id="dew_accents" opacity="0.75">
+    <ellipse cx="250" cy="600" rx="7" ry="4" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="248" cy="599" r="1.5" fill="#FFFFFF"/>
+    <ellipse cx="550" cy="610" rx="9" ry="5" fill="#FFFFFF" stroke="rgba(197,168,128,0.5)" stroke-width="0.8"/>
+    <circle cx="548" cy="609" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- ROOH Luxury Authentication Seal Watermark -->
+  <g id="rooh_seal" transform="translate(710, 710)" opacity="0.35">
+    <circle cx="30" cy="30" r="26" fill="none" stroke="#2D3B2D" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text x="30" y="34" font-family="'Cinzel', serif" font-size="8" fill="#2D3B2D" font-weight="bold" text-anchor="middle">ROOH</text>
+  </g>
+</svg>
